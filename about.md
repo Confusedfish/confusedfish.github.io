@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About Us
+nav-menu: true
+image: assets/images/big_jjournal.jpg
 ---
 
 <!-- Main -->
