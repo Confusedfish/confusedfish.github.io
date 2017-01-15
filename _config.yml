@@ -1,0 +1,36 @@
+# Site settings
+title: Jaunt Journal
+subtitle: of Ben & Beck's travels
+email: jaunt@bmcintyre.co.uk
+description: The meianderings of a couple struck with wanderlust
+baseurl: "/"
+url: "https://github.jauntjournal.co.uk"
+author: Ben McIntyre
+street_address: Wandering
+city: Free
+state: 
+zip_code: 
+country: Nominally the UK
+phone:
+
+# Homepage tiles
+tiles-source: posts # accepts "posts" or "pages"
+tiles-count: 6
+
+# Social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: 
+googleplus_url: 
+instagram_url: 
+linkedin_url: 
+pinterest_url:
+slack_url:
+twitter_url: 
+
+# Build settings
+markdown: kramdown
+
+sass:
+  style: compressed
