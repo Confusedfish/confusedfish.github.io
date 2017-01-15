@@ -1,7 +1,7 @@
 ---
-title: Travel Theame
+title: Future Plans
 layout: landing
-description: 'Our Jaunts arranged by travel theame'
+description: 'Possible future travels'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
