@@ -28,6 +28,7 @@ linkedin_url:
 pinterest_url:
 slack_url:
 twitter_url: 
+flickr_url: http://flickr.com/photos/bennbeck
 
 # Build settings
 markdown: kramdown
