@@ -24,22 +24,6 @@
 		</header>
 		{% if page.image %}<span class="image main"><img src="{{ page.image }}" alt="" /></span>{% endif %}
 		<p>{{ content }}</p>
-		
-		{% if page.group %}
-		{% assign subPosts = site.posts | where: 'group', page.group %}
-		{% assign subPosts = subPosts | sort: 'date' %}
-			{% for subpage in subPosts %}
-				{% if subpage != page %}
-					<hr class="major" />
-					<header class="minor">
-					<h2>{{ subpage.title }}</h2>
-					</header>
-					{% if subpage.image %}<span class="image main"><img src="{{ subpage.image }}" alt="" /></span>{% endif %}
-					<p>{{ subpage.content }}</p>
-				{% endif %}
-			{% endfor %}
-		{% endif %}
-		
 	</div>
 </section>
 

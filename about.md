@@ -21,3 +21,5 @@ image: assets/images/big_jjournal.jpg
 	</div>
 
 </section>
+
+</div>

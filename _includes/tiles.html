@@ -1,5 +1,6 @@
 <section id="one" class="tiles">
-	{% for post in site.posts limit:site.tiles-count %}
+	{% assign filteredPosts = site.posts | where: 'layout', 'post' %}
+	{% for post in filteredPosts limit:site.tiles-count %}
 	{% if site.tiles-source == 'posts' %}
         <article>
                 <span class="image">
