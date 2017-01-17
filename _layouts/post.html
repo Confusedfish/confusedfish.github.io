@@ -22,7 +22,12 @@
 		<header class="major">
 			<h1>{{ page.title }}</h1>
 		</header>
-		{% if page.image %}<span class="image main"><img src="{{ page.image }}" alt="" /></span>{% endif %}
+		{% if page.image %}
+		<span class="image main">
+		<img src="{{ page.image }}" alt="" />
+		{% if page.image-caption %}<span class="image caption">{{ page.image-caption }}</span>{% endif %}
+		</span>{% endif %}
+		
 		<p>{{ content }}</p>
 		
 		{% if page.group %}
@@ -30,12 +35,20 @@
 		{% assign subPosts = subPosts | sort: 'date' %}
 			{% for subpage in subPosts %}
 				{% if subpage != page %}
-					<hr class="major" />
+					<hr class="major"  id="{{ subpage.id }}"/>
 					<header class="minor">
-					<h2>{{ subpage.title }}</h2>
+					<a href="{{ subpage.url | relative_url }}">
+					<h2>
+					{{ subpage.title }}
+					</h2>
+					</a>
 					</header>
-					{% if subpage.image %}<span class="image main"><img src="{{ subpage.image }}" alt="" /></span>{% endif %}
-					<p>{{ subpage.content }}</p>
+					{% if subpage.image %}
+					<span class="image main">
+					<img src="{{ subpage.image }}" alt="" />
+					{% if subpage.image-caption %}<span class="image caption">{{ subpage.image-caption }}</span>{% endif %}
+					</span>{% endif %}
+					<p>{{ subpage.content | markdownify }}</p>
 				{% endif %}
 			{% endfor %}
 		{% endif %}

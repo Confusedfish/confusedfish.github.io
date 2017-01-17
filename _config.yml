@@ -34,4 +34,5 @@ flickr_url: http://flickr.com/photos/bennbeck
 markdown: kramdown
 
 sass:
+  sass_dir: _sass
   style: compressed
