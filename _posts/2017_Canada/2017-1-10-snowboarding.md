@@ -10,7 +10,7 @@ tags: [ snowboarding ]
 
 Whistler Blackcomb is the full name of the resort and is actually 2 mountains with some really big stats like a mile vertical from top to bottom and 8171 acres of terrain. Lots more can be [found online](https://www.whistlerblackcomb.com/discover/why-whistler) so there is no point in us repeating things here.
 
-Our main reason for comming back wasn't for all those stats, although they help of course. It's the welcoming spirit of Canadians, they couldn't be more friendly. Lift lines are minimal, but then when they do exist it's a polite merging like a zip, not the need for shoulder pads that is the norm in Europe.
+Our main reason for coming back wasn't for all those stats, although they help of course. It's the welcoming spirit of Canadians, they couldn't be more friendly. Lift lines are minimal, but then when they do exist it's a polite merging like a zip, not the need for shoulder pads that is the norm in Europe.
 
 We picked a perfect year, there have been a few duff years recently but seemingly since we booked things back in September the snow has been building.
 By the time we landed there had been over 5m of snowfall.
