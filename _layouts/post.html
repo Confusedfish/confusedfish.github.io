@@ -20,7 +20,11 @@
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>{{ page.title }}</h1>
+			<h1>
+                {% if page.planning %}
+                <a href="/future.html">Future Plans</a> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                {% endif %}
+            {{ page.title }}</h1>
 		</header>
 		{% if page.image %}
 		<span class="image main">

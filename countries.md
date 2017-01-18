@@ -59,7 +59,7 @@ nav-menu: true
 				 <a href="{{ post.url }}">
 				 {{ post.title }}
 				 <small>{{ post.date | date_to_string }}</small>
-				 </a><br />
+				 </a>{% if post.planning %}&nbsp;&nbsp;<i>*planned</i>{% endif %}<br />
 				 <p>{{ post.description }}</p>
 				 </li>
 				 {% endif %}

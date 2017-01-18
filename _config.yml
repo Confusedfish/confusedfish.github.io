@@ -12,6 +12,7 @@ state:
 zip_code: 
 country: Nominally the UK
 phone:
+future: true
 
 # Homepage tiles
 tiles-source: posts # accepts "posts" or "pages"
@@ -36,3 +37,10 @@ markdown: kramdown
 sass:
   sass_dir: _sass
   style: compressed
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      planning: false
