@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %} 
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' />
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>
+                {% if page.planning %}
+                <a href="/future.html">Future Plans</a> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                {% endif %}
+            {{ page.title }}</h1>
+		</header>
+		{% if page.image %}
+		<span class="image main">
+		<img src="{{ page.image }}" alt="" />
+		{% if page.image-caption %}<span class="image caption">{{ page.image-caption }}</span>{% endif %}
+		</span>{% endif %}
+		
+		<p>{{ content }}</p>
+		
+		{% if page.group %}
+		{% assign subPosts = site.posts | where: 'group', page.group %}
+		{% assign subPosts = subPosts | sort: 'date' %}
+			{% for subpage in subPosts %}
+				{% if subpage != page %}
+					<hr class="major"  id="{{ subpage.id }}"/>
+					<header class="minor">
+					<a href="{{ subpage.url | relative_url }}">
+					<h2>
+					{{ subpage.title }}
+					</h2>
+					</a>
+					</header>
+					{% if subpage.image %}
+					<span class="image main">
+					<img src="{{ subpage.image }}" alt="" />
+					{% if subpage.image-caption %}<span class="image caption">{{ subpage.image-caption }}</span>{% endif %}
+					</span>{% endif %}
+					<p>{{ subpage.content | markdownify }}</p>
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+		
+	</div>
+</section>
+
+</div>
+
+    {% include footer.html %}
+
+
+    <script>
+    mapboxgl.accessToken = "{{ page.map-token }}";
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: '{{ page.map-style }}',
+    zoom: 6,
+    center: [10.27, 44.04]
+});
+
+map.on('load', function () {
+
+    map.addLayer({
+        "id": "tile-data",
+        "type": "line",
+        "source": {
+            type: 'vector',
+            url: 'mapbox://{{ page.map-tileset }}'
+        },
+        "source-layer": "ItalyRoute",
+        "layout": {
+            "line-join": "round",
+            "line-cap": "round"
+        },
+        "paint": {
+            "line-color": "#008030",
+            "line-width": 2
+        }
+    });
+});
+    </script>
+
+</body>
+
+</html>
