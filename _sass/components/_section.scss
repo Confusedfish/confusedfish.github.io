@@ -13,6 +13,21 @@
 	}
 
 	header {
+        &.post-heading {
+            > a {
+                > h2 {
+                    float: left;
+                }
+            }
+
+            > span.post-date {
+                padding-left: 10px;
+                font-size: small;
+                position:relative;
+                top: 12px;
+            }
+        }
+
 		&.major {
 			width: -moz-max-content;
 			width: -webkit-max-content;

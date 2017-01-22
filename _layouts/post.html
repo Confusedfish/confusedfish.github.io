@@ -40,12 +40,13 @@
 			{% for subpage in subPosts %}
 				{% if subpage != page %}
 					<hr class="major"  id="{{ subpage.id }}"/>
-					<header class="minor">
+					<header class="post-heading">
 					<a href="{{ subpage.url | relative_url }}">
 					<h2>
 					{{ subpage.title }}
 					</h2>
 					</a>
+                    <span class="post-date">{{ subpage.date | date_to_string }}</span>
 					</header>
 					{% if subpage.image %}
 					<span class="image main">
