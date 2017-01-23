@@ -28,8 +28,20 @@
 			{% endif %}
 			{{ page.title }}
 			</h1>
+            <span class="post-date">{{ page.date | date_to_string }}</span>
 		</header>
-		{% if page.image %}<span class="image main"><img src="{{ page.image }}" alt="" /></span>{% endif %}
+		{% if page.image %}
+        <span class="image main">
+        {% if page.image-url %}
+            <a href="{{ page.image-url }}">
+            <img src="{{ page.image }}" alt="" />
+            </a>
+        {% else %}
+            <img src="{{ page.image }}" alt="" />
+        {% endif %}
+            {% if page.image-caption %}<span class="image caption">{{ page.image-caption }}</span>{% endif %}
+        </span>
+        {% endif %}
 		<p>{{ content }}</p>
 	</div>
 </section>

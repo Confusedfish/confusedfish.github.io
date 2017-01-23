@@ -3,6 +3,7 @@ layout: subpost
 title: Time for new boots
 description: Tortured feet = no holiday
 image: https://c1.staticflickr.com/1/708/32462820505_a592982c54_b.jpg
+image-url: https://www.flickr.com/photos/bennbeck/31619382864/in/album-72157675534525443/
 image-caption: Burton boots at Showcase snowboards
 group: canada-2017
 tags: [ snowboarding ]

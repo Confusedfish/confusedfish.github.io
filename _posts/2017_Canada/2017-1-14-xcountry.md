@@ -3,6 +3,7 @@ layout: subpost
 title: Cross Country Skiing
 description: Hot & hard work, rewarding views
 image: https://c1.staticflickr.com/1/644/32293937206_022b0ddae8_b.jpg
+image-url: https://www.flickr.com/photos/bennbeck/32293937206/in/album-72157675534525443/
 image-caption: Beck on the Lower Fairway cross country trail, heading toward the village
 group: canada-2017
 tags: [ xcountry ]

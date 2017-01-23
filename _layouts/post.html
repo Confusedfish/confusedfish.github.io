@@ -28,7 +28,13 @@
 		</header>
 		{% if page.image %}
 		<span class="image main">
-		<img src="{{ page.image }}" alt="" />
+        {% if page.image-url %}
+        <a href="{{ page.image-url }}">
+            <img src="{{ page.image }}" alt="" />
+        </a>
+        {% else %}
+        <img src="{{ page.image }}" alt="" />
+        {% endif %}
 		{% if page.image-caption %}<span class="image caption">{{ page.image-caption }}</span>{% endif %}
 		</span>{% endif %}
 		
@@ -48,11 +54,19 @@
 					</a>
                     <span class="post-date">{{ subpage.date | date_to_string }}</span>
 					</header>
-					{% if subpage.image %}
-					<span class="image main">
-					<img src="{{ subpage.image }}" alt="" />
-					{% if subpage.image-caption %}<span class="image caption">{{ subpage.image-caption }}</span>{% endif %}
-					</span>{% endif %}
+                    {% if subpage.image %}
+                    <span class="image main">
+                        {% if subpage.image-url %}
+                        <a href="{{ subpage.image-url }}">
+                            <img src="{{ subpage.image }}" alt="" />
+                        </a>
+                        {% else %}
+                        <img src="{{ subpage.image }}" alt="" />
+                        {% endif %}
+                        {% if subpage.image-caption %}<span class="image caption">{{ subpage.image-caption }}</span>{% endif %}
+                    </span>
+                    {% endif %}
+
 					<p>{{ subpage.content | markdownify }}</p>
 				{% endif %}
 			{% endfor %}

@@ -3,6 +3,7 @@ layout: subpost
 title: Snowboarding
 description: It would be rude not to make use of the mile of downhill
 image: https://c1.staticflickr.com/1/562/31491311604_5b0277bcc8_b.jpg
+image-url: https://www.flickr.com/photos/bennbeck/31491311604/in/album-72157675534525443/
 image-caption: Looking over to Black Tusk from the top of Harmony Chair
 group: canada-2017
 tags: [ snowboarding ]
