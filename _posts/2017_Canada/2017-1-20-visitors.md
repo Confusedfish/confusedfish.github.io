@@ -12,7 +12,10 @@ tags: [  ]
 It's great fun here in Whistler, but it's even better with family and friends. Beth & Bobby have come over for a spot of sofa-surfing (well, it is a sofa bed after all).
 We have given them  a fun packed schedule:
 
+- Walking the Valley Trail to Creekside taking in the beautiful scenery
+- A day of relaxation at the [Scandinave Spa](http://www.scandinave.com/en/whistler/)
 - 3 days of skiing lessons to get them down the slopes
+- Fresh Tracks breakfast to get them up the slopes before the crowds
 - Evening [Snowmobiling tour](https://www.canadianwilderness.com/fondue/) of the mountain
 - [Dog sledding](https://www.canadianwilderness.com/dogsled/) in the Callaghan Valley
 - Possibly a [skeleton run](http://www.whistlersportlegacies.com/activities/skeleton) down the luge if the lure of another day's skiing isn't too strong and they are nuts enough
