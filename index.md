@@ -7,4 +7,3 @@ image: null
 author: 'Ben McIntyre'
 ---
 
-Home content
