@@ -6,7 +6,7 @@ image: https://c1.staticflickr.com/1/475/32310934262_3e5bbf168b_b.jpg
 image-url: https://www.flickr.com/photos/bennbeck/32310934262/in/album-72157675534525443/
 image-caption: The view from Crystal Hut
 group: canada-2017
-tags: [ snowboarding ]
+tags: [ snowboarding, winter ]
 ---
 
 After a while the slope can get a bit hard to take a fall on. The obvious answer being not to take a fall, but thats not always an option.

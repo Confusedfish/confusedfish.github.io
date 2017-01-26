@@ -6,7 +6,7 @@ image: https://c1.staticflickr.com/1/732/32481100496_0692d72258_b.jpg
 image-url: https://www.flickr.com/photos/bennbeck/32481100496/in/album-72157675534525443/
 image-caption: Podium place with Beth & Bobby
 group: canada-2017
-tags: [  ]
+tags: [ family ]
 ---
 
 It's great fun here in Whistler, but it's even better with family and friends. Beth & Bobby have come over for a spot of sofa-surfing (well, it is a sofa bed after all).

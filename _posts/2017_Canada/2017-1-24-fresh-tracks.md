@@ -7,7 +7,7 @@ image-url: https://www.flickr.com/photos/bennbeck/32368997152/in/album-721576755
 image-portrait: true
 image-caption: Another type of fresh tracks
 group: canada-2017
-tags: [ snowboarding ]
+tags: [ snowboarding, winter ]
 ---
 
 "Fresh tracks" is a special ticket that gets you up the gondola before everyone else. The idea being that you get to make tracks in the freshest of snow.

@@ -21,8 +21,9 @@ nav-menu: true
 		<p>It's best to have a plan, here are some future jaunts we have in mind:</p>
 		
 		<ul>
-		{% assign filteredPosts = site.posts | where: 'layout', 'post' | where: 'planning', true %}
+		{% assign filteredPosts = site.posts | where: 'planning', true %}
 		{% for post in filteredPosts %}
+		{% if post.layout contains "post" or post.layout contains "post-with-map" %}
 				 <li>
 				 <a href="{{ post.url }}">
 				 {{ post.title }}
@@ -30,6 +31,7 @@ nav-menu: true
 				 </a><br />
 				 <p>{{ post.description }}</p>
 				 </li>
+		{% endif %}	
 		{% endfor %}	
 	</ul>
 	</div>
