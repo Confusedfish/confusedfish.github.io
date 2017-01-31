@@ -38,6 +38,34 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Prose settings
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://jauntjournal.co.uk/'
+  media: 'assets'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "multiselect"
+          value: "subpost"
+          options: 
+            - name: "post"
+              value: "post"
+            - name: "subpost"
+              value: "subpost"
+            - name: "post with map"
+              value: "post-with-map"
+      - name: "last_modified_at"
+        field:
+          element: "hidden"
+          value: "CURRENT_DATETIME"
+
 defaults:
   -
     scope:
