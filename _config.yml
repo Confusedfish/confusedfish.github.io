@@ -50,9 +50,15 @@ prose:
     - /_includes
   metadata:
     _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: True
       - name: "layout"
         field:
-          element: "multiselect"
+          label: "Layout"
+          element: "select"
           value: "subpost"
           options: 
             - name: "post"
@@ -61,6 +67,18 @@ prose:
               value: "subpost"
             - name: "post with map"
               value: "post-with-map"
+      - name: "tags"
+        field:
+          label: "Tags"
+          element: "multiselect"
+          options:
+            alterable: true
+      - name: "country"
+        field:
+          label: "Country"
+          element: "multiselect"
+          options:
+            alterable: true
       - name: "last_modified_at"
         field:
           element: "hidden"
