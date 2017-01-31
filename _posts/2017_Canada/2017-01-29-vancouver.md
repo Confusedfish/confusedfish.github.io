@@ -26,8 +26,10 @@ We overnighted in Vancouver in the [Lord Stanley Suites](http://www.lordstanley.
 
 For Beth & Bobby's last night in Canada we had to have a few drinks of course but finding a suitable bar was proving difficult until we stumbled upon [Cardero's](https://www.vancouverdine.com/carderos/) right on the seafront overlooking the harbour. Great service, beer & a live band.
 
-We had a bit of time to kill before their flights so we strolled along the harbour some more in the morning, unfortunately by the time we got to the Olympic cauldron the weather was not behaving so we dived into the [Cactus Club Cafe](https://www.cactusclubcafe.com/) for shelter. This was quite the find and we will hopefully find time to come back before we leave Canada.
+We had a bit of time to kill before their flights so we strolled along the harbour some more in the morning, unfortunately by the time we got to the Olympic cauldron the weather was not behaving so we dived into the [Cactus Club Cafe](https://www.cactusclubcafe.com/) for shelter. This was quite the find and we will hopefully find time to come back before we leave Canada. In particular, check out the three Olympic torches on display on the way to ... the bogs!!
 
 The airport is on the south side of Vancouver so we headed over to Kitsilano beach and dropped into an old favourite, [The Naam](http://www.thenaam.com/) which is a superb vegetarian restaurant, highly recommended. They were even kind enough to give us a pudding for free "because we have come such a long way", or perhaps they were impressed that we managed to eat it all! The portions are huge.
 
 Sadly, it was time to drop off our family at the airport which was very stress free and easy. Far easier than their 10hr flight and 7hr bus journey back to Cornwall! Our sub 2hr return to Whistler was over before they had even boarded the plane.
+
+Back at the flat, things seem a bit quiet without our visitors but we are still giggling over things that happened while they were here and we have the gift of bananagram to keep us entertained!
