@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: subpost
 description: City break seeing the sights
 image: 'https://c1.staticflickr.com/1/388/32578683406_5e0facaf84_b.jpg'
@@ -23,10 +23,10 @@ Onward down highway 99 and we stopped off at numerous viewpoints taking in the s
 
 We overnighted in Vancouver in the [Lord Stanley Suites](http://www.lordstanley.com/) which were a bit dated but perfectly fine for our needs. The accommodation was situated right next to Stanley Park which offered great views of the city on the seawall walk over to the totem poles. Following that we took the ferry over to Granville Island for some market food and to check out the various artworks. On the way back we dropped in to a most unusual shop dedicated to selling [just nuts](https://flic.kr/p/QsEmjV), delicious!
 
-For Beth & Bobby's last night in Canada we had to have a few drinks of course but finding a suitable bar was prooving difficult until we stumbled upon [Cardero's](https://www.vancouverdine.com/carderos/) right on the seafront overlooking the harbour. Great service, beer & a live band.
+For Beth & Bobby's last night in Canada we had to have a few drinks of course but finding a suitable bar was proving difficult until we stumbled upon [Cardero's](https://www.vancouverdine.com/carderos/) right on the seafront overlooking the harbour. Great service, beer & a live band.
 
-We had a bit of time to kill before their flights so we strolled allong the harbour some more in the morning, unfortunately by the time we got to the Olympic cauldron the weather was not behaving so we dived into the [Cactus Club Cafe](https://www.cactusclubcafe.com/) for shelter. This was quite the find and we will hopefully find time to come back before we leave Canada.
+We had a bit of time to kill before their flights so we strolled along the harbour some more in the morning, unfortunately by the time we got to the Olympic cauldron the weather was not behaving so we dived into the [Cactus Club Cafe](https://www.cactusclubcafe.com/) for shelter. This was quite the find and we will hopefully find time to come back before we leave Canada.
 
-The airport is on the south side of Vancouver so we headed over to Kitsilano beach and dropped into an old favourite, [The Naam](http://www.thenaam.com/) which is a superb vegetarian reasturant, highly recommended. They were even kind enough to give us a pudding for free "because we have come such a long way", or perhaps they were impressed that we managed to eat it all! The portions are huge.
+The airport is on the south side of Vancouver so we headed over to Kitsilano beach and dropped into an old favourite, [The Naam](http://www.thenaam.com/) which is a superb vegetarian restaurant, highly recommended. They were even kind enough to give us a pudding for free "because we have come such a long way", or perhaps they were impressed that we managed to eat it all! The portions are huge.
 
-Sadly it was time to drop off our family at the airport which was very stress free and easy. Far easier than their 10hr flight and 7hr bus journey back to Cornwall!
+Sadly, it was time to drop off our family at the airport which was very stress free and easy. Far easier than their 10hr flight and 7hr bus journey back to Cornwall! Our sub 2hr return to Whistler was over before they had even boarded the plane.
