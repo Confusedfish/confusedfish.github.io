@@ -16,8 +16,8 @@ country: Canada
 
 Rather than use yesterday's timeshare profits on sensible things like ski hire or general supplies we thought it would be better to splurge it on some fine dining!
 
-[Christine's](https://www.whistlerblackcomb.com/the-village/dining/christines-restaurant) is a restaurant on Blackcomb mountain house in the Rendezvous building.
-It make the most of the fantastic scenery but also has superb service and top notch food.
+[Christine's](https://www.whistlerblackcomb.com/the-village/dining/christines-restaurant) is a restaurant on Blackcomb mountain housed in the Rendezvous building.
+It makes the most of the fantastic scenery but also has superb service and top notch food.
 
 So our 3 hours of avoiding buying a timeshare was converted into:
 
@@ -32,7 +32,7 @@ So our 3 hours of avoiding buying a timeshare was converted into:
 
 Admittedly we did have to sub an extra &pound;50 but the timeshare funds covered most of it.
 
-The food & decor was stunning, the service was impeccable, the clientele an interesting mix of snowboarder bums in ripped coat through to poshly dressed couples.
+The food & decor was stunning, the service was impeccable, the clientele an interesting mix of snowboarder bums through to poshly dressed couples.
 
 If you aren't skiing then it's an easy ride up the gondola and then over the peak 2 peak but you will need a lift ticket.
 
