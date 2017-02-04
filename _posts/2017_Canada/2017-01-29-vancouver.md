@@ -8,7 +8,7 @@ image-caption: Totems in Stanley Park
 group: canada-2017
 tags:
   - winter
-image-portrait: true
+image-portrait: false
 layout: subpost
 ---
 It is time to bid farewell to our family from the UK who have been with us for the past couple of weeks. They flew out from Vancouver airport, so it made sense to slot in some sights in Vancouver.
