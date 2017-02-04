@@ -10,6 +10,7 @@ group: canada-2017
 tags:
   - timeshare
   - winter
+country: Canada
 ---
 A benefit of having plenty of time, is that when the snow is taking a break and the slopes are getting icy, you don't feel compelled to push yourself too hard and take a fall. 
 
