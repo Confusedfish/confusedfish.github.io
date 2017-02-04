@@ -2,7 +2,7 @@
 last_modified_at: '2017-01-31 11:05 -0800'
 published: true
 description: City break seeing the sights
-image: 'https://c1.staticflickr.com/1/344/32539803852_4aa8415ea7_b.jpg'
+image: 'https://c1.staticflickr.com/1/717/32313307760_774017a4cb_b.jpg'
 image-url: 'https://www.flickr.com/photos/bennbeck/albums/72157679677610576'
 image-caption: Totems in Stanley Park
 group: canada-2017
