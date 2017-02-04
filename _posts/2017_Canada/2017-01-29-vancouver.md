@@ -2,15 +2,14 @@
 last_modified_at: '2017-01-31 11:05 -0800'
 published: true
 description: City break seeing the sights
-image: 'https://c1.staticflickr.com/1/388/32578683406_5e0facaf84_b.jpg'
+image: 'https://c1.staticflickr.com/1/717/32313307760_774017a4cb_b.jpg'
 image-url: 'https://www.flickr.com/photos/bennbeck/albums/72157679677610576'
 image-caption: Totems in Stanley Park
 group: canada-2017
 tags:
   - winter
-image-portrait: true
-layout:
-  - subpost
+image-portrait: false
+layout: subpost
 ---
 It is time to bid farewell to our family from the UK who have been with us for the past couple of weeks. They flew out from Vancouver airport, so it made sense to slot in some sights in Vancouver.
 
