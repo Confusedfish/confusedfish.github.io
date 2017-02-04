@@ -12,7 +12,7 @@
 
     {% include header.html %} 
 
-	{% assign parentpost = site.posts | where: 'layout','post' | where: 'group',page.group | first %}
+	{% assign parentpost = site.posts | where: 'layout','post-with-summary-subposts' | where: 'group',page.group | first %}
     
     
 <!-- Main -->
