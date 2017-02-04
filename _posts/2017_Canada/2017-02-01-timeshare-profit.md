@@ -3,7 +3,7 @@ last_modified_at: '2017-02-03 09:46 -0800'
 published: true
 layout: subpost
 description: NOT buying into a timeshare with Embarc Diamond Resorts
-image: 'https://c1.staticflickr.com/1/601/32688356585_29237f1fa2_b.jpg'
+image: 'https://c1.staticflickr.com/1/601/32688356585_d4cc9f8551_b.jpg'
 image-url: 'url=https://flic.kr/p/RNynyV'
 image-caption: Profit from NOT buying into a timeshare with Embarc Diamond Resorts
 group: canada-2017
