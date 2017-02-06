@@ -21,3 +21,5 @@ We have given them  a fun packed schedule:
 - Possibly a [skeleton run](http://www.whistlersportlegacies.com/activities/skeleton) down the luge if the lure of another day's skiing isn't too strong and they are nuts enough
 - Vancouver for a few days
 - Beer if they can stay awake long enough after their day on the mountain
+
+<a href="https://www.youtube.com/watch?v=bSkwqgfDwrQ&t=1s" class="button icon fa-youtube" target="_blank">Video of Beth &amp; Bobby Skiing after just 3 days</a>
