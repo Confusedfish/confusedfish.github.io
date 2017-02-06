@@ -79,8 +79,6 @@
         var currentStep = 0;
         var maxStep = $('.planningDetail').length-1;
         $(function () {
-            setVisibleStep();
-
             $('#btnPreviousStep').click(function () {
                 currentStep--;
                 if (currentStep < 0)
@@ -102,6 +100,15 @@
             
             $('#btnPreviousStep').prop('disabled', (currentStep == 0));
             $('#btnNextStep').prop('disabled', (currentStep == maxStep));
+
+            var settings = stepSettings[currentStep];
+            map.setFilter("tile-data",settings.filter);
+            if(settings.bounds){
+                var bounds = new mapboxgl.LngLatBounds(
+                    new mapboxgl.LngLat(settings.bounds[0][0],settings.bounds[0][1]),
+                    new mapboxgl.LngLat(settings.bounds[1][0],settings.bounds[1][1]));
+                map.fitBounds(bounds);
+            }
         }
 
     mapboxgl.accessToken = "{{ page.map-token }}";
@@ -112,33 +119,34 @@
     center: [10.27, 44.04]
 });
 
-map.on('load', function () {
 
-    map.addLayer({
-        "id": "tile-data",
-        "type": "line",
-        "source": {
-            type: 'vector',
-            url: 'mapbox://{{ page.map-tileset }}'
-        },
-        "source-layer": '{{ page.map-layer }}',
-        "layout": {
-            "line-join": "round",
-            "line-cap": "round"
-        },
-        "paint": {
-            "line-color": {
-                property: 'transport',
-                type: 'categorical',
-                stops: [
-                    ['car', '#008030'],
-                    ['plane', '#b05080']
-                ]
-                },
-            "line-width": 3
-        }
+    var mapDataLayer;
+    map.on('load', function () {
+        map.addLayer({
+            "id": "tile-data",
+            "type": "line",
+            "source": {
+                type: 'vector',
+                url: 'mapbox://{{ page.map-tileset }}'
+            },
+            "source-layer": '{{ page.map-layer }}',
+            "layout": {
+                "line-join": "round",
+                "line-cap": "round"
+            },
+            "paint": {
+                "line-color": {
+                    property: 'transport',
+                    type: 'categorical',
+                    stops: [
+                        ['car', '#008030'],
+                        ['plane', '#b05080']
+                    ]
+                    },
+                "line-width": 3
+            }
+        });
     });
-});
 
     </script>
 

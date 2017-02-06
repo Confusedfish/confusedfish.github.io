@@ -6,7 +6,7 @@ country: Italy
 tags: 
 planning: true
 map-filter: '[ "==", "step", 1 ]'
-map-bounds: '[ [9.26, 44.34], [10.07, 44.01 ]]'
+map-bounds: '[ [8.606140, 44.01], [10.07, 44.618822 ]]'
 ---
 
 - Genoa - Entry into Italy

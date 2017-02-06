@@ -7,7 +7,7 @@ country: Italy
 tags: 
 planning: true
 map-filter: '[ "==", "step", 0 ]'
-map-bounds: '[ [ -8.56, 55.09], [17.26, 39.54 ]]'
+map-bounds: '[ [ -7.2597, 43.1009], [15.943359, 53.826 ]]'
 ---
 
 ## Ferry to Santander

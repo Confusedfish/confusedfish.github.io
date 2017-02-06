@@ -23,7 +23,7 @@ nav-menu: true
 		<ul>
 		{% assign filteredPosts = site.posts | where: 'planning', true %}
 		{% for post in filteredPosts %}
-		{% if post.layout == "post" or post.layout contains "post-with-map" %}
+		{% if post.layout == "post" or post.layout contains "planning" %}
 				 <li>
 				 <a href="{{ post.url }}">
 				 {{ post.title }}
