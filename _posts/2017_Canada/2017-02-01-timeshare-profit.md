@@ -4,7 +4,6 @@ published: true
 layout: subpost
 description: NOT buying into a timeshare with Embarc Diamond Resorts
 image: 'https://c1.staticflickr.com/1/601/32688356585_d4cc9f8551_b.jpg'
-image-url: 'https://flic.kr/p/RNynyV'
 image-caption: Profit from NOT buying into a timeshare with Embarc Diamond Resorts
 group: canada-2017
 tags:

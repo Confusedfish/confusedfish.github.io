@@ -43,6 +43,16 @@
         </span>
         {% endif %}
 		<p>{{ content }}</p>
+        
+        
+        {% if page.video-url %}
+        <a href="{{ page.video-url }}" class="button icon fa-youtube" target="_blank">See Video</a>
+        {% endif %}
+
+        {% if page.image-url %}
+        <a href="{{ page.image-url }}" class="button icon fa-flickr" target="_blank">More Photos</a>
+        {% endif %}
+
 	</div>
 </section>
 
