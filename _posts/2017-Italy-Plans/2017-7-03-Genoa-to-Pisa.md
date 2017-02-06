@@ -7,6 +7,7 @@ tags:
 planning: true
 map-filter: '[ "==", "step", 1 ]'
 map-bounds: '[ [8.606140, 44.01], [10.07, 44.618822 ]]'
+sitemap: false
 ---
 
 - Genoa - Entry into Italy
