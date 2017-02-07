@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+    Forty by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 
@@ -10,55 +10,56 @@
 
 <body>
 
-    {% include header.html %} 
+    {% include header.html %}
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.31.0/mapbox-gl.css' rel='stylesheet' />
-    
-    
-<!-- Main -->
-<div id="main" class="alt">
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>
-                {% if page.planning %}
-                <a href="/future.html">Future Plans</a> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+
+    <!-- Main -->
+    <div id="main" class="alt">
+
+        <!-- One -->
+        <section id="one">
+            <div class="inner">
+                <header class="major">
+                    <h1>
+                        {% if page.planning %}
+                        <a href="/future.html">Future Plans</a> <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                        {% endif %}
+                        {{ page.title }}
+                    </h1>
+                </header>
+                {% if page.image %}
+                <span class="image main">
+                    <img src="{{ page.image }}" alt="" />
+                    {% if page.image-caption %}<span class="image caption">{{ page.image-caption }}</span>{% endif %}
+                </span>{% endif %}
+
+                <p>{{ content }}</p>
+
+                <div id="map" style="width: 100%; height:300px; margin-bottom: 10px;"></div>
+
+                {% assign subPosts = (site.posts | where: 'group', page.group) | sort: 'date' %}
+                <button id="btnPreviousStep">Previous Step</button>
+                <button id="btnNextStep">Next Step</button><br />
+                {% for subpage in subPosts %}
+                {% if subpage != page %}
+                <div class="planningDetail" id="{{ subpage.id }}">
+                    <h3>
+                        {{ subpage.title }}
+                    </h3>
+                    <small>{{ subpage.description  }}</small>
+                    <p>{{ subpage.content | markdownify  }}</p>
+                </div>
                 {% endif %}
-            {{ page.title }}</h1>
-		</header>
-		{% if page.image %}
-		<span class="image main">
-		<img src="{{ page.image }}" alt="" />
-		{% if page.image-caption %}<span class="image caption">{{ page.image-caption }}</span>{% endif %}
-		</span>{% endif %}
-		
-		<p>{{ content }}</p>
-		
-        <div id="map" style="width: 100%; height:300px; margin-bottom: 10px;"></div>
+                {% endfor %}
 
-        {% assign subPosts = (site.posts | where: 'group', page.group) | sort: 'date' %}
-        <button id="btnPreviousStep">Previous Step</button>
-        <button id="btnNextStep">Next Step</button><br />
-        {% for subpage in subPosts %}
-            {% if subpage != page %}
-            <div class="planningDetail" id="{{ subpage.id }}">
-                <h3>
-                    {{ subpage.title }}
-                </h3>
-                <small>{{ subpage.description  }}</small>
-                <p>{{ subpage.content | markdownify  }}</p>
+                <a href="{{ page.planning-sheet }}" class="button big icon fa-table" target="_blank">Planning Sheet</a>
+
             </div>
-            {% endif %}
-        {% endfor %}
-		
-        <a href="{{ page.planning-sheet }}" class="button big icon fa-table" target="_blank">Planning Sheet</a>
+        </section>
 
-	</div>
-</section>
-
-</div>
+    </div>
 
     {% include footer.html %}
 
@@ -97,7 +98,7 @@
         function setVisibleStep() {
             $('.planningDetail').toggle(false);
             $('.planningDetail').eq(currentStep).toggle(true);
-            
+
             $('#btnPreviousStep').prop('disabled', (currentStep == 0));
             $('#btnNextStep').prop('disabled', (currentStep == maxStep));
 
@@ -113,20 +114,11 @@
 
     mapboxgl.accessToken = "{{ page.map-token }}";
     var map = new mapboxgl.Map({
-        container: 'map',
-        style: '{{ page.map-style }}',
-        zoom: 0,
-        center: [-1.688411,53.348632]
-    });
-
-    {%if page.map-bounds %}
-    var defaultBounds = {{ page.map-bounds }};
-    var bounds = new mapboxgl.LngLatBounds(
-        new mapboxgl.LngLat(defaultBounds[0][0],defaultBounds[0][1]),
-        new mapboxgl.LngLat(defaultBounds[1][0],defaultBounds[1][1]));
-    map.fitBounds(bounds);
-    {% endif %}
-
+    container: 'map',
+    style: '{{ page.map-style }}',
+    zoom: 6,
+    center: [10.27, 44.04]
+});
 
 
     var mapDataLayer;
@@ -156,20 +148,6 @@
             }
         });
     });
-
-    {%if page.map-filter %}
-    var filterLoaded = false;
-    map.on('data',function(d){
-        if(!filterLoaded && d.dataType=="style" && d.style._loaded && map.getLayer("tile-data")!=null    )
-        {
-            console.log('Setting initial filter');
-            map.setFilter("tile-data",{{page.map-filter}});
-            filterLoaded = true;
-        }
-    });
-    {% endif %}
-
-
 
     </script>
 
