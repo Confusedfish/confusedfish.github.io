@@ -6,6 +6,8 @@ country: Italy
 tags: 
 planning: true
 sitemap: false
+map-filter: '[ "==", "step", 7 ]'
+map-bounds: '[ [11.9003,43.9552], [12.834,44.5337]]'
 ---
 
 - Towns of interest

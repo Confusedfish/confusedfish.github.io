@@ -113,11 +113,20 @@
 
     mapboxgl.accessToken = "{{ page.map-token }}";
     var map = new mapboxgl.Map({
-    container: 'map',
-    style: '{{ page.map-style }}',
-    zoom: 6,
-    center: [10.27, 44.04]
-});
+        container: 'map',
+        style: '{{ page.map-style }}',
+        zoom: 0,
+        center: [-1.688411,53.348632]
+    });
+
+    {%if(page.map-bounds)%}
+    var defaultBounds = {{ page.map-bounds }};
+    var bounds = new mapboxgl.LngLatBounds(
+        new mapboxgl.LngLat(defaultBounds[0][0],defaultBounds[0][1]),
+        new mapboxgl.LngLat(defaultBounds[1][0],defaultBounds[1][1]));
+    map.fitBounds(bounds);
+    {% endif %}
+
 
 
     var mapDataLayer;
@@ -147,6 +156,20 @@
             }
         });
     });
+
+    {%if(page.map-filter)%}
+    var filterLoaded = false;
+    map.on('data',function(d){
+        if(!filterLoaded && d.dataType=="style" && d.style._loaded && map.getLayer("tile-data")!=null    )
+        {
+            console.log('Setting initial filter');
+            map.setFilter("tile-data",{{page.map-filter}});
+            filterLoaded = true;
+        }
+    });
+    {% endif %}
+
+
 
     </script>
 
