@@ -119,7 +119,7 @@
         center: [-1.688411,53.348632]
     });
 
-    {%if(page.map-bounds)%}
+    {%if page.map-bounds %}
     var defaultBounds = {{ page.map-bounds }};
     var bounds = new mapboxgl.LngLatBounds(
         new mapboxgl.LngLat(defaultBounds[0][0],defaultBounds[0][1]),
@@ -157,7 +157,7 @@
         });
     });
 
-    {%if(page.map-filter)%}
+    {%if page.map-filter %}
     var filterLoaded = false;
     map.on('data',function(d){
         if(!filterLoaded && d.dataType=="style" && d.style._loaded && map.getLayer("tile-data")!=null    )
