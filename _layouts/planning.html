@@ -157,17 +157,20 @@
         });
     });
 
-    {% if page.map-filter %}
     var filterLoaded = false;
     map.on('data',function(d){
+        $('.planningDetail').toggle(false);
+        $('.planningDetail').eq(0).toggle(true);
+        {% if page.map-filter %}
         if(!filterLoaded && d.dataType=="style" && d.style._loaded && map.getLayer("tile-data")!=null    )
         {
             console.log('Setting initial filter');
             map.setFilter("tile-data",{{page.map-filter}});
             filterLoaded = true;
         }
+        {% endif %}
     });
-    {% endif %}
+
 
     </script>
 
