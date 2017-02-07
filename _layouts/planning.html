@@ -157,6 +157,18 @@
         });
     });
 
+    {% if page.map-filter %}
+    var filterLoaded = false;
+    map.on('data',function(d){
+        if(!filterLoaded && d.dataType=="style" && d.style._loaded && map.getLayer("tile-data")!=null    )
+        {
+            console.log('Setting initial filter');
+            map.setFilter("tile-data",{{page.map-filter}});
+            filterLoaded = true;
+        }
+    });
+    {% endif %}
+
     </script>
 
 </body>
