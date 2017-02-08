@@ -6,7 +6,7 @@ country: Italy
 tags: 
 planning: true
 map-filter: '[ "==", "step", 1 ]'
-map-bounds: '[ [8.606140, 44.01], [10.07, 44.618822 ]]'
+map-bounds: '[ [9.418304,	44.076364], [9.927109, 44.178511 ]]'
 sitemap: false
 ---
 

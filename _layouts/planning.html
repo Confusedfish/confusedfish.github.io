@@ -135,10 +135,10 @@
             "id": "tile-data",
             "type": "line",
             "source": {
-                type: 'vector',
-                url: 'mapbox://{{ page.map-tileset }}'
+                type: 'geojson',
+                data: '{{ STATIC_URL}}{{ page.map-geojson }}'
             },
-            "source-layer": '{{ page.map-layer }}',
+//            "source-layer": '{{ page.map-layer }}',
             "layout": {
                 "line-join": "round",
                 "line-cap": "round"

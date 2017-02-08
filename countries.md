@@ -19,8 +19,10 @@ nav-menu: true
 		<!-- Content -->
 		<p>All our jaunts broken down by country:</p>
 		
+		{% assign postsOfInterest = site.posts | where_exp : "post","post.layout <> 'subpost'" %}
+		{% assign postsOfInterest = postsOfInterest | where_exp : "post","post.layout <> null" %}
 		{% assign rawcats = "" %}
-		{% for post in site.posts %}
+		{% for post in postsOfInterest %}
 		{% assign tcats = post.country | join:'|' | append:'|' %}
 		{% assign rawcats = rawcats | append:tcats %}
 		{% endfor %}
@@ -53,7 +55,7 @@ nav-menu: true
 		{% for ct in cats %}
 			<dt id="{{ ct | slugify }}">{{ ct }}</dt>
 			<dd><ul>
-			 {% for post in site.posts %}
+			 {% for post in postsOfInterest %}
 				 {% if post.country contains ct %}
 				 <li>
 				 <a href="{{ post.url }}">
