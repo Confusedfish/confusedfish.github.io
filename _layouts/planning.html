@@ -103,7 +103,9 @@
             $('#btnNextStep').prop('disabled', (currentStep == maxStep));
 
             var settings = stepSettings[currentStep];
-            map.setFilter("tile-data",settings.filter);
+            map.setFilter("lines",settings.filter);
+            map.setFilter("line-cases",settings.filter);
+            map.setFilter("pois",settings.filter);
             if(settings.bounds){
                 var bounds = new mapboxgl.LngLatBounds(
                     new mapboxgl.LngLat(settings.bounds[0][0],settings.bounds[0][1]),
@@ -132,13 +134,38 @@
     var mapDataLayer;
     map.on('load', function () {
         map.addLayer({
-            "id": "tile-data",
+            "id": "line-cases",
             "type": "line",
+            //"source": {
+            //    type: 'geojson',
+            //    data: '{{ STATIC_URL}}{{ page.map-geojson }}'
+            //},
             "source": {
-                type: 'geojson',
-                data: '{{ STATIC_URL}}{{ page.map-geojson }}'
+                type: 'vector',
+                url: 'mapbox://{{ page.map-tileset }}'
             },
-//            "source-layer": '{{ page.map-layer }}',
+            "source-layer": '{{ page.map-layer }}',
+            "layout": {
+                "line-join": "round",
+                "line-cap": "round"
+            },
+            "paint": {
+                "line-color": '#ffffff',
+                "line-width": 4
+            }
+        });
+        map.addLayer({
+            "id": "lines",
+            "type": "line",
+            //"source": {
+            //    type: 'geojson',
+            //    data: '{{ STATIC_URL}}{{ page.map-geojson }}'
+            //},
+            "source": {
+                type: 'vector',
+                url: 'mapbox://{{ page.map-tileset }}'
+            },
+            "source-layer": '{{ page.map-layer }}',
             "layout": {
                 "line-join": "round",
                 "line-cap": "round"
@@ -151,8 +178,95 @@
                         ['car', '#008030'],
                         ['plane', '#b05080']
                     ]
-                    },
-                "line-width": 3
+                },
+                "line-width": 2
+            }
+        });
+        map.addLayer({
+            "id": "pois",
+            "type": "symbol",
+            //"source": {
+            //    type: 'geojson',
+            //    data: '{{ STATIC_URL}}{{ page.map-geojson }}'
+            //},
+            "source": {
+                type: 'vector',
+                url: 'mapbox://{{ page.map-tileset }}'
+            },
+            "source-layer": '{{ page.map-layer }}',
+            "layout": {
+                "text-size": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            7,
+                            11.5
+                        ],
+                        [
+                            15,
+                            20
+                        ]
+                    ]
+                },
+                "icon-image": "{icon}",
+                "text-font": [
+                    "Open Sans Bold",
+                    "Arial Unicode MS Bold"
+                ],
+                "icon-allow-overlap": true,
+                "visibility": "visible",
+                "text-offset": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            0,
+                            [
+                                0,
+                                1
+                            ]
+                        ],
+                        [
+                            22,
+                            [
+                                0,
+                                0.3
+                            ]
+                        ]
+                    ]
+                },
+                "icon-size": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            4,
+                            0.5
+                        ],
+                        [
+                            7,
+                            1
+                        ]
+                    ]
+                },
+                "text-anchor": "top",
+                "text-field": "{title}"
+            },
+            "paint": {
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-halo-width": 1,
+                "text-color": "hsl(30, 100%, 9%)",
+                "text-opacity": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            6,
+                            0
+                        ],
+                        [
+                            6.1,
+                            1
+                        ]
+                    ]
+                }
             }
         });
     });
@@ -165,7 +279,9 @@
         if(!filterLoaded && d.dataType=="style" && d.style._loaded && map.getLayer("tile-data")!=null    )
         {
             console.log('Setting initial filter');
-            map.setFilter("tile-data",{{page.map-filter}});
+            map.setFilter("lines",{{page.map-filter}});
+            map.setFilter("line-cases",{{page.map-filter}});
+            map.setFilter("pois",{{page.map-filter}});
             filterLoaded = true;
         }
         {% endif %}
