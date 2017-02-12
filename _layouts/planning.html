@@ -103,9 +103,11 @@
             $('#btnNextStep').prop('disabled', (currentStep == maxStep));
 
             var settings = stepSettings[currentStep];
+            {% if page.map-tileset %}
             map.setFilter("lines",settings.filter);
             map.setFilter("line-cases",settings.filter);
             map.setFilter("pois",settings.filter);
+            {%endif%}
             if(settings.bounds){
                 var bounds = new mapboxgl.LngLatBounds(
                     new mapboxgl.LngLat(settings.bounds[0][0],settings.bounds[0][1]),
@@ -131,6 +133,7 @@
     {% endif %}
 
 
+    {% if page.map-tileset %}
     var mapDataLayer;
     map.on('load', function () {
         map.addLayer({
@@ -286,7 +289,7 @@
         }
         {% endif %}
     });
-
+    {%endif%}
 
     </script>
 
