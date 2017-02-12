@@ -3,6 +3,7 @@ layout: page
 title: About Us
 nav-menu: true
 last_modified_at: '2017-02-11 23:17 -0800'
+published: true
 ---
 
 <!-- Main -->
@@ -23,7 +24,7 @@ last_modified_at: '2017-02-11 23:17 -0800'
 		<p>It's for us to record our various mianderings, plan future ones and hopefully give inspiration to others.</p>
 
 		<h2 id="content">How does the site work</h2>
-		<p>The site is served by the generous hosts at <a href="https://pages.github.com/">GitHub Pages</a> and is coded using <a href="https://jekyllrb.com/">Jekyll</a> which is a great platform for managing a site like this without the need for a CMS. Our photos are hosted on <a href="https://www.flickr.com/photos/bennbeck">Flickr</a> and video content is on <a href="https://www.youtube.com/channel/UCU7oNbVPDfufDrcAZX0pD7g">YouTube</a>.</p>
+		<p>The site is served by the generous hosts at <a href="https://pages.github.com/">GitHub Pages</a> and is coded using <a href="https://jekyllrb.com/">Jekyll</a> which is a great platform for managing a site like this without the need for a CMS. Our photos are hosted on <a href="https://www.flickr.com/photos/bennbeck">Flickr</a> and video content is on <a href="https://www.youtube.com/channel/UCU7oNbVPDfufDrcAZX0pD7g">YouTube</a>. Maps are made using the fantastic tools provided by <a href="https://www.mapbox.com/">Mapbox</a> and a collection of routing information from <a href="http://maps.google.com">Google Maps</a> and <a href="https://www.viamichelin.com/">ViaMichalin</a> which also includes toll pricing information.</p>
 	</div>
 
 </section>
