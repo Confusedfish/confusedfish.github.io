@@ -1,12 +1,17 @@
 ---
+last_modified_at: '2017-02-11 23:17 -0800'
 layout: subpost
 title: Dog Sledding
-description: Like snowmobiling, but happier
-image: https://c1.staticflickr.com/1/295/32164623200_fcb30e61a1_b.jpg
-image-url: https://www.flickr.com/photos/bennbeck/albums/72157679622239755
+description: 'Like snowmobiling, but happier'
+image: 'https://c1.staticflickr.com/1/295/32164623200_fcb30e61a1_b.jpg'
+image-url: 'https://www.flickr.com/photos/bennbeck/albums/72157679622239755'
 image-caption: Beck with the dogs keen to go
 group: canada-2017
-tags: [ dog sledding, winter ]
+tags:
+  - dog sledding
+  - winter
+published: true
+video-url: 'https://youtu.be/JvVbswoTsc4'
 ---
 
 Take 6 excitable dogs, tether them to a sled, hop into said sled and wrap up warm under down sleeping bags and whoosh, you're off!
