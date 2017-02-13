@@ -10,8 +10,4 @@ map-bounds: '[ [9.418304,	44.076364], [9.927109, 44.178511 ]]'
 sitemap: false
 ---
 
-- Genoa - Entry into Italy
-- Ligurian Coast
-	- Sestri Levante to Viareggio for Beaches
-		- We note Viareggio is quite a large town, Parco Nazionale delle Cinque Terre looks far more like our kind of place
-	- Bonassola
+Cinque Terra region is a national park with several villages connected by a train running through the steep hillside. There is a footpath connecting the villages with stunning views of the sea.

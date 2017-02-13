@@ -77,7 +77,7 @@
         {% endfor %}
 
 
-        var currentStep = 0;
+        var currentStep = -1;
         var maxStep = $('.planningDetail').length-1;
         $(function () {
             $('#btnPreviousStep').click(function () {
@@ -290,6 +290,26 @@
         {% endif %}
     });
     {%endif%}
+
+    map.on('click', function (e) {
+        var features = map.queryRenderedFeatures(e.point, { layers: ['Italy - roads case'] });
+        if (!features.length) {
+            return;
+        }
+
+        var feature = features[0];
+
+        // Populate the popup and set its coordinates
+        // based on the feature found.
+        var midPoint = Math.floor(feature.geometry.coordinates.length/2);
+
+        var popup = new mapboxgl.Popup()
+            .setLngLat(feature.geometry.coordinates[midPoint])
+            .setHTML("<strong>" + feature.properties.title + "</strong><ul><li>Distance: " + feature.properties.distance + "</li><li>Cost: " + feature.properties.cost + "</li><li>Duration: " + feature.properties.duration + "</li></ul>")
+            .addTo(map);
+        map.setFilter('Italy - selected case',[ "==", "step", feature.properties.step ]);
+    });
+
 
     </script>
 

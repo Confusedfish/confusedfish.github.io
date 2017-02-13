@@ -6,6 +6,14 @@
 
 /* Type */
 
+    .mapboxgl-popup {
+        color: black;
+
+        strong { 
+            color: black;
+        }
+    }
+
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
