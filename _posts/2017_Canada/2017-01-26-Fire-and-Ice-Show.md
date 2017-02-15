@@ -1,5 +1,5 @@
 ---
-last_modified_at: '2017-02-11 14:09 -0800'
+last_modified_at: 2017-02-11T14:09:00-08:00
 published: true
 layout: subpost
 title: Fire and Ice at the Garibaldi Lift Company

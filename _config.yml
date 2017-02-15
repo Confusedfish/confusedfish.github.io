@@ -69,8 +69,8 @@ prose:
               value: "post-with-map"
       - name: "last_modified_at"
         field:
-          element: "hidden"
-          value: "CURRENT_DATETIME"
+          element: "text"
+		  placeholder: "yyyy-mm-ddThh:mm:ss-z
 
 defaults:
   -
@@ -79,3 +79,5 @@ defaults:
     values:
       planning: false
 
+gems:
+  - jekyll-seo-tag

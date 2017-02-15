@@ -1,5 +1,5 @@
 ---
-last_modified_at: '2017-02-03 09:46 -0800'
+last_modified_at: 2017-02-03T09:48:00-08:00
 published: true
 title: "Christine's Restaurant"
 layout: subpost

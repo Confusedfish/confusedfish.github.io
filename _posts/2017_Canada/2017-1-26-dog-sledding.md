@@ -1,5 +1,5 @@
 ---
-last_modified_at: '2017-02-11 23:17 -0800'
+last_modified_at: 2017-02-11T23:17:00-08:00
 layout: subpost
 title: Dog Sledding
 description: 'Like snowmobiling, but happier'

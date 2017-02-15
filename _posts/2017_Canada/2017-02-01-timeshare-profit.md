@@ -1,5 +1,5 @@
 ---
-last_modified_at: '2017-02-03 09:46 -0800'
+last_modified_at: 2017-02-03T09:46:00-08:00
 published: true
 layout: subpost
 description: NOT buying into a timeshare with Embarc Diamond Resorts

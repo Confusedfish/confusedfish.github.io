@@ -2,7 +2,7 @@
 layout: page
 title: About Us
 nav-menu: true
-last_modified_at: '2017-02-12 01:23 -0800'
+last_modified_at: 2017-02-12T01:23:00-08:00
 published: true
 ---
 

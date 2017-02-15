@@ -1,5 +1,5 @@
 ---
-last_modified_at: '2017-02-09 19:37 -0800'
+last_modified_at: 2017-02-09T19:37:00-08:00
 published: true
 layout: subpost
 description: 32cm of snowmageddon and lots more on the way
