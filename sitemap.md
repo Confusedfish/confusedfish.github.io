@@ -10,12 +10,18 @@ sitemap: false
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
 	  {% assign postDate = (post.last_modified_at | default : post.date | default : site.time) %}
+	  {% if postDate > site.time %}
+	  {% assign postDate = site.time %}
+	  {% endif %}
 	  {% unless post.layout=="subpost" %}
 		{% assign subPosts = (site.posts | where: 'group', post.group) %}
 		{% for subpage in subPosts %}
 			{% assign subpageDate = subpage.date %}
 			{% if subpage.last_modified_at %}
 			{% assign subpageDate = subpage.last_modified_at %}
+			{% endif %}
+			{% if subpageDate > site.time %}
+			{% assign subpageDate = site.time %}
 			{% endif %}
 			{% if subpageDate > postDate %}
 			{% assign postDate = subpageDate %}
