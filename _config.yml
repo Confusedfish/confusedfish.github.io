@@ -79,4 +79,3 @@ defaults:
     values:
       planning: false
 
-gems: [ jekyll-sitemap ]
