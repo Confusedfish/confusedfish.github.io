@@ -67,11 +67,6 @@ prose:
               value: "subpost"
             - name: "post with map"
               value: "post-with-map"
-      - name: "last_modified_at"
-        field:
-          label: "Modified Date"
-          element: "text"
-          placeholder: "yyyy-mm-ddThh:mm:ss-z"
 defaults:
   -
     scope:
