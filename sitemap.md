@@ -34,10 +34,14 @@ sitemap: false
       {% else %}
         <changefreq>monthly</changefreq>
       {% endif %}
-      {% if post.sitemap.priority %}
-        <priority>{{ post.sitemap.priority }}</priority>
+      {% if post.sitemap-priority %}
+        <priority>{{ post.sitemap-priority }}</priority>
       {% else %}
+		{% if post.layout=="post" %}
+        <priority>0.4</priority>
+	    {% else %}
         <priority>0.5</priority>
+        {% endif %}
       {% endif %}
     </url>
     {% endunless %}
@@ -45,6 +49,7 @@ sitemap: false
   {% endfor %}
   {% for page in site.pages %}
     {% unless page.sitemap == false %}
+    {% if page.layout %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
@@ -65,6 +70,7 @@ sitemap: false
         <priority>0.3</priority>
       {% endif %}
     </url>
+    {% endif %}
     {% endunless %}
   {% endfor %}
 </urlset>
