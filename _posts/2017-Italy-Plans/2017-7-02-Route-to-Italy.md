@@ -18,3 +18,7 @@ We have wanted to check out Brugge for a while now and although this will only a
 From Brugge the plan is to avoid the tolls of France by driving through Belgium, into Luxembourg, back into France into Switzerland. By now we will be in need of rest and the town of Lucerne looks interesting with its medieval bridge.
 
 After the overnight stop, it's on through the mountaints into Italy...
+
+#### Alternatives
+
+- Enter Italy through the Mont Blanc tunnel then through [Aosta valley](http://www.italia.it/en/discover-italy/aosta-valley.html) with it's many castles and walled city
