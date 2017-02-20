@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2017-02-19T16:05:00-08:00
 layout: subpost
 description: Italy via Brugge and through the Alps
 image-thumbnail: /assets/images/italy/route.png
