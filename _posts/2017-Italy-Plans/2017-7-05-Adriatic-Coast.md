@@ -13,7 +13,7 @@ map-bounds: '[ [11.9003,43.9552], [12.834,44.5337]]'
 
 #### Ravenna
 
-- Famous mosaics](http://www.ravennamosaici.it/?lang=en)
+- [Famous mosaics](http://www.ravennamosaici.it/?lang=en)
 - [Wikitravel](http://wikitravel.org/en/Ravenna)
 
 #### Rimini
