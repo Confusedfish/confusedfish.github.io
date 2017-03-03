@@ -20,6 +20,8 @@ It's an island connected to the mainland by road.
 
 
 - Viewpoints / Choice beaches
+	- La Feniglia - Big wide sandy beach connecting the island with the mainland. Possibly find a bit of space even on the busiest of days as it's 7km long!
+	- Possible (for Beck! Ben could hire a boat) to swim over to [Sparviero Island](http://maremma-tuscany.com/puntala/sparviero-island/)
 - Places to stay
 - Route Options
 
