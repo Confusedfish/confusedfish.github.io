@@ -27,4 +27,4 @@ We will be staying at our first AirBnB on this trip, in [Arona](https://www.airb
 
 #### Alternative Routes
 
-- Enter Italy through the Mont Blanc tunnel then through [Aosta valley](http://www.italia.it/en/discover-italy/aosta-valley.html) with it's many castles and walled city
+- Enter Italy through the Mont Blanc tunnel then through [Aosta valley](http://www.italia.it/en/discover-italy/aosta-valley.html){:ref-name: #test .testClass} with it's many castles and walled city
