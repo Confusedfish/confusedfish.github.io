@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2017-04-15T10:00:00+00:00
+last_modified_at: 2017-04-15T11:00:00+00:00
 layout: subpost
 description: Italy via Brugge and through the Alps
 image-thumbnail: /assets/images/italy/route.png
@@ -22,7 +22,7 @@ From Brugge the plan is to avoid the tolls of France by driving through Belgium,
 
 After the overnight stop, it's on through the mountaints of Switzerland into Italy to the shores of [Lago Maggiore](http://www.illagomaggiore.com/en_US/26091,Poi.html)
 
-![Lago Maggiore](https://cdn03.comvel.media/bin/images/landingpages-nr/CVG/italien/italien-lago-maggiore.jpg){: .image .fit}
+![Lago Maggiore](http://www.lagomaggioreconference.com/images/testate/testata7.jpg/1000x347.jpg){: .image .fit}
 
 We will be staying at our first AirBnB on this trip, in [Arona](https://www.airbnb.co.uk/rooms/13905960) just for a couple of nights to recover from the couple of days of long driving.
 
