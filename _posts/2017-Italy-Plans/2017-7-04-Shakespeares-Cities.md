@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2017-04-13T22:10:00+00:00
+last_modified_at: 2017-04-15T10:00:00+00:00
 layout: subpost
 description: Northern Cities
 group: italy-2017-plans
@@ -13,7 +13,7 @@ map-bounds: '[ [10.81,45.32],[12.35,45.62]]'
 
 From Lago di Garda we will head further East, first stopping at Verona then we have 3 nights stop over to give us time to check out Padua and Venice, the [AirBnB](https://www.airbnb.co.uk/rooms/9470025) looks superb.
 
-![AirBnB](https://a0.muscache.com/im/pictures/674ee13a-35ee-4a75-9364-c08cdd459b02.jpg)
+![AirBnB](https://a0.muscache.com/im/pictures/674ee13a-35ee-4a75-9364-c08cdd459b02.jpg){: .image .fit}
 
 
 #### Verona

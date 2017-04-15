@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2017-04-13T22:10:00+00:00
+last_modified_at: 2017-04-15T10:00:00+00:00
 layout: subpost
 description: Island that Nepoleon was exiled onto
 group: italy-2017-plans
@@ -13,7 +13,7 @@ map-bounds: '[ [10.027,42.6839], [10.6366,42.9629]]'
 
 After our long stay in one place for a week it's time to move again, this time with a ferry hop over to Elba Island. Staying in [Hotel Cernia](http://www.hotelcernia.it/) in Sant' Andrea. There's plenty of stuff for us to do over here from walking through to undersea statues so we are stopping for 5 nights.
 
-![Hotel Cernia](http://www.hotelcernia.it/wp-content/uploads/hotel_09-1140x760.jpg)
+![Hotel Cernia](http://www.hotelcernia.it/wp-content/uploads/hotel_09-1140x760.jpg){: .image .fit}
 
 [Cala Violina ](https://www.google.co.uk/maps/place/Cala+Violina/@42.8719699,10.764842,12z/data=!4m5!3m4!1s0x1329dae11dcd7c81:0x31f8c7469284caca!8m2!3d42.8562933!4d10.7745088) is probably a nice beach to visit on the way to / from Elba.
 

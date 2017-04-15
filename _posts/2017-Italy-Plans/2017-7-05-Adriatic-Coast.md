@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2017-04-13T22:10:00+00:00
+last_modified_at: 2017-04-15T10:00:00+00:00
 layout: subpost
 description: Eastern regions
 group: italy-2017-plans
@@ -13,7 +13,7 @@ map-bounds: '[ [11.83,43.52], [13.78,44.7]]'
 
 From Venice we strike South through the bustle of Ravenna & Rimini to Portonovo just south of Ancona. The [Hotel Emilia](http://www.hotelemilia.com/it/) looks amazing, as does the coastline.
 
-![Hotel Emilia](http://www.hotelemilia.com/images/hotel-emilia/gallery-26.jpg)
+![Hotel Emilia](http://www.hotelemilia.com/images/hotel-emilia/gallery-26.jpg){: .image .fit}
 
 
 #### Ravenna

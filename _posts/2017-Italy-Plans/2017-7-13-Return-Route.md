@@ -8,7 +8,7 @@ tags:
 planning: true
 sitemap: false
 map-filter: '[ "==", "step", 0 ]'
-map-bounds: '[ [ -4.3945312542,42.3910086278],[9.3713378864,45.2748865078 ]]'
+map-bounds: '[ [ -3,43.6],[11.2,50.6 ]]'
 ---
 
 Lots of options available for the return journey but we can probably get away with not booking accommodation until later.
