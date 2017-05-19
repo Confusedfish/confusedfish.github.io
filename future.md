@@ -20,8 +20,8 @@ nav-menu: true
 		<!-- Content -->
 		<p>It's best to have a plan, here are some future jaunts we have in mind:</p>
 		
-		<ul>
-		{% assign filteredPosts = site.posts | where: 'planning', true %}
+		<ul> 
+		{% assign filteredPosts = site.plans | where: 'planning', true %}
 		{% for post in filteredPosts %}
 		{% if post.layout == "post" or post.layout contains "planning" %}
 				 <li>

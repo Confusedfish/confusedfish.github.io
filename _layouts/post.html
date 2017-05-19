@@ -64,6 +64,10 @@
                     {% endfor %}
                 </div>
                 {% endif %}
+
+                {% if page.planner %}
+                    <a href="{{ page.planner }}" class="button icon fa-calendar">Planning Pages</a>
+                {% endif %}
             </div>
         </section>
     </div>

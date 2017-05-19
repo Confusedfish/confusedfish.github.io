@@ -33,6 +33,10 @@ flickr_url: http://flickr.com/photos/bennbeck
 
 # Build settings
 markdown: kramdown
+collections:
+  plans:
+    permalink: /plans/:path/
+    output: true
 
 sass:
   sass_dir: _sass
@@ -76,3 +80,4 @@ defaults:
 
 gems:
   - jekyll-seo-tag
+  - jekyll-redirect-from
