@@ -8,6 +8,7 @@ image-caption: Totems in Stanley Park
 group: canada-2017
 tags:
   - winter
+  - city
 image-portrait: false
 layout: subpost
 ---
