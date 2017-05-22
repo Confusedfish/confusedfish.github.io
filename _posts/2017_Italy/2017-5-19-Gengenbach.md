@@ -1,5 +1,5 @@
 --- 
-last_modified_at: 2017-05-22T21:52:00+02:00
+last_modified_at: 2017-05-22T21:56:00+02:00
 layout: subpost
 title: Gengenbach
 description: Dry Reisling, don't mind if I do
@@ -15,4 +15,5 @@ A quick stop over in the Black Forest for some Gateaux staying in the [Pfeffer &
 little walk out of the town but set in beautiful wine country.
 
 We only saw a little of the beautiful wine country due to a full day of very heavy rain, but what we did see
-made us want to come back at a more appropriate time of year or with more appropriate atire.
+made us want to come back at a more appropriate time of year or with more appropriate atire. If not just to sample more of the delicious
+rosti at the [Schatull](www.schatull.de), still not sure what a Shatull is other than a great bar in Gengenbach.
