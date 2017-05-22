@@ -29,7 +29,7 @@ Setting for Romeo & Juliet, so can't be all that bad!
 #### Venice
 
 - Great looking [tour gide](http://www.google.com/url?q=http%3A%2F%2Freidsitaly.com%2Fdestinations%2Fveneto%2Fvenice%2Fsights%2Fvenice_itin_1day.html&sa=D&sntz=1&usg=AFQjCNFPlvjxy_n2VYtO8kULObP6Ose3tg) with 1 -3 day itinneraries and timing guides to make the day go smoothly
-- Park off the lagoon, i.e. http://www.garageeuropamestre.com/en and take the train.
+- Park off the lagoon, i.e. [here](http://www.garageeuropamestre.com/en) and take the train.
 - [Doge's Palace](http://palazzoducale.visitmuve.it/en/home/)
 - Note the comments on [Wikitravel](http://wikitravel.org/en/Venice#Activities) about gondola pricing
 
