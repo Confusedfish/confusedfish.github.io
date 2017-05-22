@@ -39,7 +39,7 @@
 
                 <div id="map" style="width: 100%; height:300px; margin-bottom: 10px;"></div>
 
-                {% assign subPosts = (site.posts | where: 'group', page.group) | sort: 'date' %}
+                {% assign subPosts = (site.plans | where: 'group', page.group) | sort: 'date' %}
                 <button id="btnPreviousStep">Previous Step</button>
                 <button id="btnNextStep">Next Step</button><br />
                 {% for subpage in subPosts %}
