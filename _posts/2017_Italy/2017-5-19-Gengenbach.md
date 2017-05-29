@@ -3,7 +3,7 @@ last_modified_at: 2017-05-22T21:56:00+02:00
 layout: subpost
 title: Gengenbach
 description: Dry Reisling, don't mind if I do
-thumb: https://c1.staticflickr.com/5/4272/34798252256_27044012f3_n.jpg
+thumb: https://c1.staticflickr.com/5/4162/34741753925_ee9648cb28_n.jpg
 image: https://c1.staticflickr.com/5/4249/33945858723_f28c11ffc1_b.jpg
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157680846114764
 image-caption: Gengenbach town centre

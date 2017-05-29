@@ -71,12 +71,12 @@
 			margin-top: (_size(element-margin) * 0.5);
         }
 
-        > img:first-of-type {
+        /*> img:first-of-type {
             float: left;
             top: 10px;
             position: relative;
             left: -10px;
-        }
+        }*/
 
 		&.small {
 			font-size: 0.6em;
@@ -148,5 +148,10 @@
 			@include vendor('pointer-events', 'none');
 			cursor: default;
 			opacity: 0.25;
+		}
+		
+		&.subpost-link {
+			padding-bottom: 0.1em;
+			padding-top: 1.75em;
 		}
 	}

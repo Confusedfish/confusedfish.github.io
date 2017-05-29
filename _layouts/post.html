@@ -47,16 +47,28 @@
                     <div class="row">
                         <div class="12u">
                             <a id="{{ subpage.id }}" href="{{ subpage.url | relative_url }}" class="button subpost-link">
+                                {% if subpage.thumb %}
+                                <img src="{{ subpage.thumb }}" class="image thumbnail" alt="{{ subpage.image-caption }}"  />
+                                {% else %}
                                 {% if subpage.image %}
-                                <img src="{{ subpage.image | replace: '_b.jpg', '_q.jpg' }}" width="150" height="150" alt="{{ subpage.image-caption }}" />
+                                <img src="{{ subpage.image | replace: '_b.jpg', '_q.jpg' }}" class="image thumbnail" alt="{{ subpage.image-caption }}" />
+                                {% endif %}
                                 {% endif %}
 
+                                {% if subpage.thumbSquare %}
+                                <img src="{{ subpage.thumbSquare }}" class="image thumbnail-square" alt="{{ subpage.image-caption }}"  />
+                                {% else %}
+                                {% if subpage.image %}
+                                <img src="{{ subpage.image | replace: '_b.jpg', '_q.jpg' }}" class="image thumbnail-square" alt="{{ subpage.image-caption }}" />
+                                {% endif %}
+                                {% endif %}
                                 <h2>
                                     {{ subpage.title }}
                                 </h2>
                                 <span class="post-date">{{ subpage.date | date_to_string }}</span>
 
                                 <p>{{ subpage.description  }}</p>
+								<div class="u-cf"></div>
                             </a>
                         </div>
                     </div>

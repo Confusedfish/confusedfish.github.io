@@ -3,9 +3,11 @@ last_modified_at: 2017-05-22T22:05:00+02:00
 layout: subpost
 title: Lago Maggiore & d'Orta
 description: Big lakes, hot weather
+image-caption: Lac Maggiore from Statue of San Carlo Borromeo
 image: https://c1.staticflickr.com/5/4196/34665788182_10af185cec_b.jpg
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157681875878461/
-image-caption: Lac Maggiore from Statue of San Carlo Borromeo
+thumb: https://c1.staticflickr.com/5/4196/34665788182_10af185cec_n.jpg
+thumbSquare: https://c1.staticflickr.com/5/4245/34782108505_d09d99291b_q.jpg
 group: italy-2017
 country: Italy
 published: true
