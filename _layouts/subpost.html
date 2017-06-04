@@ -53,6 +53,14 @@
         <a href="{{ page.image-url }}" class="button icon fa-flickr" target="_blank">More Photos</a>
         {% endif %}
 
+
+        {% if page.previous.url and page.previous.group == page.group %}
+        <a class="button" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+        {% endif %}
+        {% if page.next.url and page.next.group == page.group %}
+        <a class="button" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+        {% endif %}
+
 	</div>
 </section>
 
