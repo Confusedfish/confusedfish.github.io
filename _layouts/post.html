@@ -26,12 +26,18 @@
                 </header>
                 {% if page.image %}
                 <span class="image main">
-                    {% if page.image-url %}
-                    <a href="{{ page.image-url }}">
+                    {% if page.highlights-url %}
+                    <a href="{{ page.highlights-url }}">
                         <img src="{{ page.image }}" alt="" />
                     </a>
                     {% else %}
-                    <img src="{{ page.image }}" alt="" />
+						{% if page.image-url %}
+						<a href="{{ page.image-url }}">
+							<img src="{{ page.image }}" alt="" />
+						</a>
+						{% else %}
+						<img src="{{ page.image }}" alt="" />
+						{% endif %}
                     {% endif %}
                     {% if page.image-caption %}<span class="image caption">{{ page.image-caption }}</span>{% endif %}
                 </span>{% endif %}
@@ -77,6 +83,12 @@
                 </div>
                 {% endif %}
 
+                {% if page.highlights-url %}
+                    <a href="{{ page.highlights-url }}" class="button icon fa-camera-retro" title="Just the best bits">Photo Highlights</a>
+                {% endif %}
+                {% if page.image-url %}
+                    <a href="{{ page.image-url }}" class="button icon fa-picture-o" title="May require more patience">All Photos</a>
+                {% endif %}
                 {% if page.planner %}
                     <a href="{{ page.planner }}" class="button icon fa-calendar">Planning Pages</a>
                 {% endif %}
