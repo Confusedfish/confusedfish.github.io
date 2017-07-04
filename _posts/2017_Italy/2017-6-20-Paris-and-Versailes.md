@@ -9,7 +9,7 @@ image: https://c1.staticflickr.com/5/4218/35508152265_3131b08d07_b.jpg
 thumb: https://c1.staticflickr.com/5/4218/35508152265_3131b08d07_n.jpg
 thumbSquare: https://c1.staticflickr.com/5/4241/35331658901_c120dc9910_q.jpg
 group: italy-2017
-country: Italy
+country: France
 published: True
 ---
 

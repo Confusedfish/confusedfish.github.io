@@ -10,6 +10,7 @@ thumb: https://c1.staticflickr.com/5/4222/35016256576_e2ab255ffc_n.jpg
 thumbSquare: https://c1.staticflickr.com/5/4222/35016256576_e2ab255ffc_q.jpg
 group: italy-2017
 country: Italy
+tags: [ seafood ]
 published: true
 ---
 

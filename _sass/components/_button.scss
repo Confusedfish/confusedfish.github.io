@@ -132,6 +132,7 @@
 			background-color: _palette(fg-bold);
 			box-shadow: none;
 			color: _palette(bg);
+			margin-bottom: (_size(element-margin) * 0.25);
 
 			&:hover, &:active {
 				background-color: _palette(highlight);

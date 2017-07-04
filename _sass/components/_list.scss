@@ -68,7 +68,7 @@
 
 			li {
 				display: inline-block;
-				padding: 0 (_size(element-margin) * 0.5) 0 0;
+				padding: 0 (_size(element-margin) * 0.5) (_size(element-margin) * 0.25) 0;
 				vertical-align: middle;
 
 				&:last-child {
@@ -78,7 +78,7 @@
 
 			&.small {
 				li {
-					padding: 0 (_size(element-margin) * 0.5) 0 0;
+					padding: 0 (_size(element-margin) * 0.5) (_size(element-margin) * 0.25) 0;
 				}
 			}
 
@@ -130,6 +130,13 @@
 					}
 				}
 			}
+			
+			@include breakpoint(xsmall) {
+				li {
+					padding: 0 (_size(element-margin) * 0.5) (_size(element-margin) * 0.25) 0;
+				}
+			}
+
 		}
 	}
 
