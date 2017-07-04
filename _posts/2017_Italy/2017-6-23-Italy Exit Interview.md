@@ -3,7 +3,7 @@ last_modified_at: 2017-06-22T12:34:00+02:00
 layout: subpost
 title: Italy Exit Interview
 description: Thought provoking Italy
-image-url: https://www.flickr.com/photos/bennbeck/albums/72157684883593195
+image-url: https://www.flickr.com/photos/bennbeck/albums/72157683270242901
 image-caption: Leaving by ferry
 image: https://c1.staticflickr.com/5/4207/35076414220_3f26779d83_b.jpg
 thumb: https://c1.staticflickr.com/5/4207/35076414220_3f26779d83_n.jpg
