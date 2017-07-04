@@ -7,6 +7,8 @@
 <html>
 
 {% include head.html %}
+{% assign latestPosts = site.posts | where: 'planning', false %}
+
 
 <body>
 
@@ -21,12 +23,47 @@
             <div class="content">
                 <p style="text-transform: uppercase;">{{ site.description }}</p>
                 <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Recent Entries</a></li>
+                    <li><a href="#one" class="button next scrolly">Recent Jaunts</a></li>
+					<li><a href="future.html" class="button icon fa-plane">Future Plans</a></li>
                 </ul>
-            </div>
+			</div>
         </div>
     </section>
 
+    <section id="recentPosts">
+		<h1>Latest Journal Entries</h1>
+		{% for subpage in latestPosts limit:4 %}
+			<div class="recentPost">
+				<a id="{{ subpage.id }}" href="{{ subpage.url | relative_url }}" class="button subpost-link">
+					{% if subpage.thumb %}
+					<img src="{{ subpage.thumb }}" class="image thumbnail" alt="{{ subpage.image-caption }}"  />
+					{% else %}
+					{% if subpage.image %}
+					<img src="{{ subpage.image | replace: '_b.jpg', '_q.jpg' }}" class="image thumbnail" alt="{{ subpage.image-caption }}" />
+					{% endif %}
+					{% endif %}
+
+					{% if subpage.thumbSquare %}
+					<img src="{{ subpage.thumbSquare }}" class="image thumbnail-square" alt="{{ subpage.image-caption }}"  />
+					{% else %}
+					{% if subpage.image %}
+					<img src="{{ subpage.image | replace: '_b.jpg', '_q.jpg' }}" class="image thumbnail-square" alt="{{ subpage.image-caption }}" />
+					{% endif %}
+					{% endif %}
+					<h2>
+						{{ subpage.title }}
+					</h2>
+					<span class="post-date">{{ subpage.date | date_to_string }}</span>
+
+					<p>{{ subpage.description  }}</p>
+					<div class="u-cf"></div>
+				</a>
+			</div>
+		{% endfor %}
+		<div class="u-cf"></div>
+	</section>
+
+	
     <!-- Main -->
     <div id="main">
 

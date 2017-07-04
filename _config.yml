@@ -40,7 +40,7 @@ collections:
 
 sass:
   sass_dir: _sass
-  style: compressed
+#  style: compressed
 
 # Prose settings
 prose:

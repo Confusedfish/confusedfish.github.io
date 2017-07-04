@@ -47,11 +47,11 @@
                 {% if page.group %}
                 {% assign subPosts = (site.posts | where: 'group', page.group) | sort: 'date' %}
                 {% assign subPosts = subPosts | reverse %}
-                <div class="box alt">
+                <div class="box alt" id="recentPosts">
                     {% for subpage in subPosts %}
                     {% if subpage != page %}
                     <div class="row">
-                        <div class="12u">
+                        <div class="12u postDetails">
                             <a id="{{ subpage.id }}" href="{{ subpage.url | relative_url }}" class="button subpost-link">
                                 {% if subpage.thumb %}
                                 <img src="{{ subpage.thumb }}" class="image thumbnail" alt="{{ subpage.image-caption }}"  />

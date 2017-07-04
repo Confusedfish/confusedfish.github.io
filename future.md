@@ -23,6 +23,7 @@ nav-menu: true
 		<ul> 
 		{% assign filteredPosts = site.plans | where: 'planning', true %}
 		{% for post in filteredPosts %}
+		{% if post.date > site.time %}
 		{% if post.layout == "post" or post.layout contains "planning" %}
 				 <li>
 				 <a href="{{ post.url }}">
@@ -31,6 +32,7 @@ nav-menu: true
 				 </a><br />
 				 <p>{{ post.description }}</p>
 				 </li>
+		{% endif %}	
 		{% endif %}	
 		{% endfor %}	
 	</ul>
