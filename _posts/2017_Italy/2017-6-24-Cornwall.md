@@ -28,7 +28,7 @@ Falmouth means several things to us, they all revolve around food, even the fami
 - We will wander the high street looking in all the great independent shops and obviously slot in a beer from [Beerwolf Books](http://beerwolfbooks.com), or at the more rustic [Front](https://www.facebook.com/pg/TheFrontFalmouth)
 
 If you are ever heading to Falmouth then do book ahead and get a table at the Wheelhouse, well, only if you like seafood cooked really well in a great atmosphere.
-It's a simple menu, pick from Crab, Lobster, Prawn, Scallops or Muscles, pick a size depending on how hungry (Beck) or greedy (Ben) you are, pick a sauce and await
+It's a simple menu, pick from Crab, Lobster, Prawn, Scallops or Mussels, pick a size depending on how hungry (Beck) or greedy (Ben) you are, pick a sauce and await
 the shell cracking fun.
 
 On this visit, [Beerwolf](http://beerwolfbooks.com) disappointed by offering beers from Manchester (several Blackjack + 1 Marble 2.7%) or Derbyshire 
