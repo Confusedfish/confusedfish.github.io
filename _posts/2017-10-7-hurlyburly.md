@@ -3,9 +3,10 @@ layout: post
 title: Hurly Burly
 description: A 10km open water swim at Barmouth
 image: https://c1.staticflickr.com/5/4490/37334580160_a3e2c2f567_h_d.jpg
+image-caption: Getting a bit tangled up in the lines
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157687620567654
 thumb: https://c1.staticflickr.com/5/4453/37541238202_875511c3f5_n_d.jpg
-thumb-square: https://c1.staticflickr.com/5/4453/37541238202_875511c3f5_q_d.jpg
+thumbSquare: https://c1.staticflickr.com/5/4453/37541238202_875511c3f5_q_d.jpg
 tags: [ swimming ]
 country: Wales
 published: true
