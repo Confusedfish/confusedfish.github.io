@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Hurly Burly
 description: A 10km open water swim at Barmouth
