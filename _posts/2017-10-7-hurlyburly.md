@@ -7,6 +7,7 @@ image-caption: Getting a bit tangled up in the lines
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157687620567654
 thumb: https://c1.staticflickr.com/5/4453/37541238202_875511c3f5_n_d.jpg
 thumbSquare: https://c1.staticflickr.com/5/4453/37541238202_875511c3f5_q_d.jpg
+video-url: https://www.flickr.com/photos/bennbeck/37001542913
 tags: [ swimming ]
 country: Wales
 published: true
