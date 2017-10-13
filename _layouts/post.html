@@ -85,6 +85,9 @@
                 </div>
                 {% endif %}
 
+				{% if page.video-url %}
+					<a href="{{ page.video-url }}" class="button icon fa-youtube" target="_blank">See Video</a>
+				{% endif %}
                 {% if page.highlights-url %}
                     <a href="{{ page.highlights-url }}" class="button icon fa-camera-retro" title="Just the best bits">Photo Highlights</a>
                 {% endif %}
