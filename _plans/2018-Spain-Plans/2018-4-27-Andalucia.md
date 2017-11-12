@@ -13,4 +13,4 @@ map-bounds: '[ [-4.1473388672,36.6199366256],[-2.7740478516,37.7316248702]]'
 
 Stopping over at [Hotel Bubion](http://www.villasdeandalucia.com/bubion)
 
-![Hote in the mountains](https://pbs.twimg.com/media/DLw3vFjXkAAHmlp.jpg:large){: .image .fit}
+![Hotel in the mountains](https://pbs.twimg.com/media/DLw3vFjXkAAHmlp.jpg:large){: .image .fit}

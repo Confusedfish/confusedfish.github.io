@@ -14,6 +14,6 @@ sitemap: false
 Rather than take the Eurotunnel and hotfoot it through France we are taking the ferry to Bilbao. It's slightly more expensive but once you factor in the
 time taken and accommodation there isn't much in it and this way we get to nice and fresh.
 
-From Bilbao we still have a way to go. This is a Paradore tour so our first stop is [Cordboa](http://www.parador.es/en/paradores/parador-de-cardona), a castle / hotel not far from Barcelona.
+From Bilbao we still have a way to go. This is a Parador tour so our first stop is [Cardona](http://www.parador.es/en/paradores/parador-de-cardona), a castle / hotel not far from Barcelona.
 
-![Cordoba Paradore](http://www.parador.es/sites/default/files/paradores/slide/2013/12/exterior_00_14.jpg){: .image .fit}
+![Cordoba Parador](http://www.parador.es/sites/default/files/paradores/slide/2013/12/exterior_00_14.jpg){: .image .fit}
