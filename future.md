@@ -28,7 +28,6 @@ nav-menu: true
 				 <li>
 				 <a href="{{ post.url }}">
 				 {{ post.title }}
-				 <small>{{ post.date | date_to_string }}</small>
 				 </a><br />
 				 <p>{{ post.description }}</p>
 				 </li>
