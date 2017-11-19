@@ -27,17 +27,27 @@ but we want to do it just for fun with a group of friends.
 
 You can find out way more about the route on the website for the much bigger [Frog Graham Round](http://www.froggrahamround.co.uk/tadpole-round-home/#tadpole)
 but in summary it's:
+
 * Just under 11km
 * About 240m ascent
 * It's a swim (600m), run (4.5km), swim (300m), run (5.45km)
+
+The last run is where most of the asscent is, the rest of the route is fairly flat. If the second swim proves enough then there are pubs in Buttermere to
+bail out, or we could fire up a BBQ on the shore.
 
 ### Accommodation
 
 [Newlands Fell House](https://www.sallyscottages.co.uk/newlands-fell-house) sleeps 16 and is only 15 mins drive from the start. Looks lovely!
 
-### Safety
+### Safety & Logistics
 
-We can't all do the swim, run as the partakers will need some support along the way. Ben's not into swimming either, so a cannoe is a good excuse to skip the swim.
+We can't all do the swim, run as the partakers will need some support along the way. Ben's not into swimming either, so a canoe is a good excuse to skip the swim.
 Beck may just hop back in the water as soon as possible and skip as much of the run as possible.
 
 You can't just rock up and pop your canoe in at Crummock nor Buttermere, we will need to get a [permit](http://www.lakedistrict.gov.uk/__data/assets/pdf_file/0014/314600/Access-to-Lakes.pdf) from the national park.
+
+There are two possible places to park and there is no portage between the two lakes (at least not a safe one). Canoe support may need to take abandoned gear back
+to the start once the first run starts. There should hopefully be enough time to get the canoe(s) back onto a car and to the southerly car park in time to get back
+onto the water to get people their gear for the second swim but it might be a bit tight.
+
+The second parking area is very limited, it might be better to check with the landowner in advance if possible.
