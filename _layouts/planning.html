@@ -280,21 +280,25 @@
             }
         });
     });
+    {%endif %}
 
     var filterLoaded = false;
+    {% if page.map-filter %}
     map.on('data',function(d){
-        {% if page.map-filter %}
-        if(!filterLoaded && d.dataType=="style" && d.style._loaded && map.getLayer("tile-data")!=null    )
+        if(!filterLoaded && d.dataType=="style" && d.style._loaded )
         {
             console.log('Setting initial filter');
             $('.planningDetail').toggle(false);
             $('.planningDetail').eq(0).toggle(true);
-            map.setFilter("lines",{{page.map-filter}});
-            map.setFilter("line-cases",{{page.map-filter}});
-            map.setFilter("pois",{{page.map-filter}});
+            var newFilter = {{page.map-filter }};
+            mergeFilter(map, "lines", newFilter);
+            mergeFilter(map, "line-cases", newFilter);
+            mergeFilter(map, "pois", newFilter);
+            mergeFilter(map, "route", newFilter);
+            mergeFilter(map, "running", newFilter);
+            mergeFilter(map, "swimming", newFilter);
             filterLoaded = true;
         }
-        {% endif %}
     });
     {%endif%}
 
@@ -315,7 +319,33 @@
             .setHTML("<strong>" + feature.properties.title + "</strong><ul><li>Distance: " + feature.properties.distance + "</li><li>Cost: " + feature.properties.cost + "</li><li>Duration: " + feature.properties.duration + "</li></ul>")
             .addTo(map);
         map.setFilter('Italy - selected case',[ "==", "step", feature.properties.step ]);
-    });
+        });
+
+        function mergeFilter(map, layerName, newFilter) {
+            if (map.getLayer(layerName)) {
+
+                var filter = map.getFilter(layerName);
+
+                //Does the filter start with "Any","All", "None"?
+                if (filter[0]!="any" && filter[0]!="all" && filter[0]!="none") {
+                    filter = ["all", filter];
+                }
+
+                var arrayLength = filter.length;
+                var found = false;
+                for (var i = 1; i < arrayLength; i++) {
+                    if (filter[i][1] == newFilter[1]) {
+                        filter[i][1] = newFilter;
+                        found = true;
+                    }
+                }
+                if (!found) {
+                    filter.push(newFilter);
+                }
+                console.log("Setting filter on " + layerName + " to " + JSON.stringify(filter));
+                map.setFilter(layerName, filter);
+            }
+        }
 
 
     </script>
