@@ -6,8 +6,7 @@ country: Spain
 tags: 
 planning: true
 sitemap: false
-map-filter: '[ "==", "step", 1 ]'
-map-bounds: '[ [-4.8305511475,36.9231359822],[-4.7804260254,36.9478339815]]'
+map-bounds: '[ [-4.8060035706,36.9050190297],[-4.7569084167,36.9417974319]]'
 ---
 
 On the way to Ronda we will probably stop off at [Caminito Del Rey](http://www.caminitodelrey.info/en/6323/your-visit) for a crazy stroll along the boardwalks.

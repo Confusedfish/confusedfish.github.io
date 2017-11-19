@@ -11,6 +11,10 @@ planning: true
 published: true
 sitemap:
   changefreq: daily
+map-style: 'mapbox://styles/confusedfish/cj9wy7u9r66i82spbei8rd3uj'
+map-token: >-
+  pk.eyJ1IjoiY29uZnVzZWRmaXNoIiwiYSI6ImNpanI2Y2l0ZTAwOW92cGx4cTgyOXhjbG4ifQ.MhCrf-rEph1cJq5n8A190Q
+map-bounds: '[[10.1898193359,49.2660123065],[11.0941213311,49.6213871093]]'
 ---
 
 A pre-christmas chance to experience a traditional german winter market for some last minute gift shopping interspersed with the odd beerkeller.
