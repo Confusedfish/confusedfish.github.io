@@ -74,10 +74,14 @@
 
 		@include breakpoint(small) {
 			&.major {
+				width: auto;
 				> p {
 					br {
 						display: none;
 					}
+				}
+				> h1 {
+					word-wrap: break-word;
 				}
 			}
 		}
