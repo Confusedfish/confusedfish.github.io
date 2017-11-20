@@ -50,4 +50,6 @@ There are two possible places to park and there is no portage between the two la
 to the start once the first run starts. There should hopefully be enough time to get the canoe(s) back onto a car and to the southerly car park in time to get back
 onto the water to get people their gear for the second swim but it might be a bit tight.
 
-The second parking area is very limited, it might be better to check with the landowner in advance if possible.
+The second parking area is very limited, just look, someone has blocked it with their [landy already](https://www.google.co.uk/maps/@54.528866,-3.2531082,3a,75y,258.45h,70.28t/data=!3m6!1e1!3m4!1sF2xuv22BjRlS35wFr3Iysg!2e0!7i13312!8i6656),
+it might be better to check with the landowner in advance if possible. Alternatively, the canoe based support might be able to paddle to the end of Crummock and simply carry the
+canoe between two, over to Buttermere. I sense a recognisance trip coming on.
