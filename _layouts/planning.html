@@ -39,7 +39,7 @@
 
                 {% if page.map-token %}
                 <a name="map"></a>
-                <div id="map" style="width: 100%; height:300px; margin-bottom: 10px;"></div>
+                <div id="map" style="width: 100%; height:350px; margin-bottom: 10px;"></div>
                 {% endif %}
                 {% assign subPosts = (site.plans | where: 'group', page.group) | sort: 'date' %}
                 {% if subPosts.size > 1 %}
