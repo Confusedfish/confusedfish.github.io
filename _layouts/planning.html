@@ -288,8 +288,6 @@
         if(!filterLoaded && d.dataType=="style" && d.style._loaded )
         {
             console.log('Setting initial filter');
-            $('.planningDetail').toggle(false);
-            $('.planningDetail').eq(0).toggle(true);
             var newFilter = {{page.map-filter }};
             mergeFilter(map, "lines", newFilter);
             mergeFilter(map, "line-cases", newFilter);
