@@ -11,6 +11,7 @@ published: true
 sitemap:
   changefreq: daily
 map-filter: '[ "==", "step", 12 ]'
+map-bounds: '[[8.073194166279052,46.7163866653984],[8.354561644954003,46.8170656249259]]'
 ---
 
 * Melchsee-Frutt

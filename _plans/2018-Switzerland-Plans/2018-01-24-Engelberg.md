@@ -11,6 +11,7 @@ published: true
 sitemap:
   changefreq: daily
 map-filter: '[ "==", "step", 4 ]'
+map-bounds: '[[8.308654895357762,46.77568644309986],[8.489502315847119,46.840347694129974]]'
 ---
 
 * Engelberg

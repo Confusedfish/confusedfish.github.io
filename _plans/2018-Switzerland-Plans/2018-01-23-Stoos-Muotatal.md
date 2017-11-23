@@ -11,6 +11,7 @@ published: true
 sitemap:
   changefreq: daily
 map-filter: '[ "==", "step", 3 ]'
+map-bounds: '[[8.498435010939119,46.95217687369251],[8.82027364508184,47.06681717021661]]'
 ---
 
 * Stoos Muotatal [Webcams](http://www.stoos-muotatal.ch/en/swisscams-morschach-stoos)
