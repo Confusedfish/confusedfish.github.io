@@ -6,7 +6,6 @@ group: spain-2018-plans
 country: Spain
 tags: 
 planning: true
-map-filter: '[ "==", "step", 0 ]'
 map-bounds: '[[-9.6594253778,42.92271448],[2.724609375,51.3443386606]]'
 sitemap: false
 ---

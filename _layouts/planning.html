@@ -110,11 +110,13 @@
             $('#btnNextStep').prop('disabled', (currentStep == maxStep));
 
             var settings = stepSettings[currentStep];
-            {% if page.map-tileset %}
-            map.setFilter("lines",settings.filter);
-            map.setFilter("line-cases",settings.filter);
-            map.setFilter("pois",settings.filter);
-            {%endif%}
+			if(settings.filter){
+				mergeFilter(map, "lines", settings.filter);
+				mergeFilter(map, "line-cases", settings.filter);
+				mergeFilter(map, "pois", settings.filter);
+				mergeFilter(map, "route", settings.filter);
+				mergeFilter(map, "route-case", settings.filter);
+			}
             if(settings.bounds){
                 var bounds = new mapboxgl.LngLatBounds(
                     new mapboxgl.LngLat(settings.bounds[0][0],settings.bounds[0][1]),
@@ -293,6 +295,7 @@
             mergeFilter(map, "line-cases", newFilter);
             mergeFilter(map, "pois", newFilter);
             mergeFilter(map, "route", newFilter);
+            mergeFilter(map, "route-case", newFilter);
             mergeFilter(map, "running", newFilter);
             mergeFilter(map, "swimming", newFilter);
             filterLoaded = true;
@@ -323,6 +326,8 @@
             if (map.getLayer(layerName)) {
 
                 var filter = map.getFilter(layerName);
+				if(filter==null || filter.length==0)
+					filter = ["all"];
 
                 //Does the filter start with "Any","All", "None"?
                 if (filter[0]!="any" && filter[0]!="all" && filter[0]!="none") {
@@ -333,7 +338,7 @@
                 var found = false;
                 for (var i = 1; i < arrayLength; i++) {
                     if (filter[i][1] == newFilter[1]) {
-                        filter[i][1] = newFilter;
+                        filter[i] = newFilter;
                         found = true;
                     }
                 }

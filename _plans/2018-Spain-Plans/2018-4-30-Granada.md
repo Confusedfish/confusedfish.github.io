@@ -7,7 +7,6 @@ country: Spain
 tags: 
 planning: true
 sitemap: false
-map-filter: '[ "==", "step", 1 ]'
 map-bounds: '[ [-4.1473388672,36.6199366256],[-2.7740478516,37.7316248702]]'
 ---
 
