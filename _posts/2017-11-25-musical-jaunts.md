@@ -4,7 +4,7 @@ last_modified_at: 2017-12-01T16:17:00-00:00
 title: Musical Jaunts
 description: Two great bands in quick succession
 image: https://farm5.staticflickr.com/4543/23902038707_337881337a_b.jpg
-image-caption: Teenie Band / Massive Screen
+image-caption: Teeny Band / Massive Screen
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157689097575521
 thumbSquare: https://farm5.staticflickr.com/4543/23902038707_337881337a_q.jpg
 tags: [ music ]
