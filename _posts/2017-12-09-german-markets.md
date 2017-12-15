@@ -12,7 +12,6 @@ country: Germany
 published: true
 ---
 
-Germany jaunt
 The motivation for this jaunt was a kind of mash up of wanting to visit Oktober Fest, but not wanting to deal with crowds, and a hankering for a proper German Christmas Market
 and a bit of snow. We searched long and hard for the right location – not wanting a city, but still wanting a place that was big enough to keep us occupied for a few days, with
 plenty of opportunity for beer and glühwein drinking. Like Goldilocks, when we saw the pics of [Rothenburg ob der Tauber](https://www.rothenburg.de/welcome/welcome-to-rothenburg/?no_cache=1),
