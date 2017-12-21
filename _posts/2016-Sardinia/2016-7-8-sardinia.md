@@ -4,6 +4,7 @@ title: Sardinia
 description: Mediterranean turquoise waters & Bottarga
 image: https://c1.staticflickr.com/5/4186/34623370451_f1afbbf943_b.jpg
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157669531394355
+thumbSquare: https://farm8.staticflickr.com/7181/27571368192_29d6613a8c_q.jpg
 country: Sardinia
 group: sardinia-2016
 ---

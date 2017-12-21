@@ -47,7 +47,7 @@
                 <p>{{ content }}</p>
 
                 {% if page.group %}
-                {% assign subPosts = (site.posts | where: 'group', page.group) | sort: 'date' %}
+                {% assign subPosts = site.posts | where: 'group', page.group | sort: 'date' %}
                 {% assign subPosts = subPosts | reverse %}
                 <div class="box alt" id="recentPosts">
                     {% for subpage in subPosts %}
