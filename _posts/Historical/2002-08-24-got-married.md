@@ -12,4 +12,4 @@ published: true
 
 We both have quite large families so needed a fairly big venue. The [Cutlers Hall](http://www.cutlershall.co.uk/) in Sheffield was perfect.
 We enlisted Stew to be first man much to his distress when it came to the speeches. Neil was kind enough to take the photos of which we only
-recently managed to recover after an unknown issue with [flickr](www.flickr.com/photos/bennbeck) mucking them all up.
+recently managed to recover after an unknown issue with [flickr](http://www.flickr.com/photos/bennbeck) mucking them all up.
