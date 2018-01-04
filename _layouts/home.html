@@ -32,7 +32,7 @@
 
     <section id="recentPosts">
 		<h1>Latest Journal Entries&nbsp;<small><a href="timeline.html">&nbsp;View All...</a></small></h1>
-		{% for subpage in latestPosts limit:4 %}
+		{% for subpage in latestPosts limit:6 %}
 			<div class="recentPost">
 				<a id="{{ subpage.id }}" href="{{ subpage.url | relative_url }}" class="button subpost-link">
 					{% if subpage.thumb %}

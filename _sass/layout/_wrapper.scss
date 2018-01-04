@@ -12,7 +12,8 @@
 			'-webkit-filter #{_duration(menu)} ease',
 			'opacity 0.375s ease-out'
 		));
-		/*padding-top: 1.5em;*/
+		
+		padding-top: 0.5em;
 
 		&.is-transitioning {
 			opacity: 0;
@@ -22,7 +23,7 @@
 			@include inner;
 		}
 
-		/*@include breakpoint(small) {
-			padding-top: 2.75em;
-		}*/
+		@include breakpoint(small) {
+			padding-top: 0.75em;
+		}
 	}
