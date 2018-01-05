@@ -4,10 +4,10 @@ last_modified_at: 2018-01-04T21:20:00-00:00
 title: Christmas 2017 & New Year Eve
 description: Carols, fab food, presents, family & friends
 image: https://farm5.staticflickr.com/4686/24637389027_7508d6bad7_h.jpg
-image-caption: Ben & Beck at Higgar Tor
+image-caption: Ben & Beck at Higger Tor
 image-url: https://www.flickr.com/photos/bennbeck/sets/72157668137270929
 thumbSquare: https://farm5.staticflickr.com/4600/39474646562_fb9e34d639_q.jpg
-tags: [ christmas, winter, family ]
+tags: [ christmas, winter, family, nye ]
 country: UK
 published: true
 ---
