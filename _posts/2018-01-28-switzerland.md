@@ -1,12 +1,12 @@
 ---
 layout: post
-last_modified_at: 2018-02-05T20:37:00-00:00
+last_modified_at: 2018-02-05T22:37:00-00:00
 title: Switzerland
 description: Visting Drew, Mel & Freyja
 image: https://farm5.staticflickr.com/4625/39205255595_808206b762_h.jpg
 image-caption: Beck & Mel at Stoos
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157689906136972
-video-url: 
+video-url: https://youtu.be/oey3yfUyp40
 thumbSquare: https://farm5.staticflickr.com/4752/26207492868_a78aeb36fc_q.jpg
 tags: [ winter, snowboarding ]
 country: Switzerland
