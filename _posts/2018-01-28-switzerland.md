@@ -27,7 +27,7 @@ We were a little troubled at the lack of snow at this point, part of the hike ob
 of the higher ski resorts just to be on the safe side. Our choice was [Engelberg-Titliss](http://www.engelberg.ch/en/) for a fun filled first 
 day on the hill. 
 
-From here on in, it’s probably easier just to watch the video to see what we got up to, but briefly our schedule went as follows:
+From here on in, it’s probably easier just to watch the [video](https://youtu.be/oey3yfUyp40) to see what we got up to, but briefly our schedule went as follows:
 
 **Tuesday**: Engelberg-Titlis for a sunny day snowboarding on perfectly groomed pistes, just the two of us. On our return we were treated to a cheese 
 fondue and BBQ in the forest behind Drew & Mel’s apartment – a very cool way to spend the evening. 
