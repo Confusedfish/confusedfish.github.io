@@ -6,7 +6,7 @@ description: Visting Drew, Mel & Freyja
 image: https://farm5.staticflickr.com/4625/39205255595_808206b762_h.jpg
 image-caption: Beck & Mel at Stoos
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157689906136972
-video-url: https://youtu.be/oey3yfUyp40
+video-url: https://youtu.be/1EM_M9bPK9s
 thumbSquare: https://farm5.staticflickr.com/4752/26207492868_a78aeb36fc_q.jpg
 tags: [ winter, snowboarding ]
 country: Switzerland
@@ -27,7 +27,7 @@ We were a little troubled at the lack of snow at this point, part of the hike ob
 of the higher ski resorts just to be on the safe side. Our choice was [Engelberg-Titliss](http://www.engelberg.ch/en/) for a fun filled first 
 day on the hill. 
 
-From here on in, it’s probably easier just to watch the [video](https://youtu.be/oey3yfUyp40) to see what we got up to, but briefly our schedule went as follows:
+From here on in, it’s probably easier just to watch the [video](https://youtu.be/1EM_M9bPK9s) to see what we got up to, but briefly our schedule went as follows:
 
 **Tuesday**: Engelberg-Titlis for a sunny day snowboarding on perfectly groomed pistes, just the two of us. On our return we were treated to a cheese 
 fondue and BBQ in the forest behind Drew & Mel’s apartment – a very cool way to spend the evening. 
