@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2017-11-11T22:10:00+00:00
+last_modified_at: 2018-05-12T22:10:00+00:00
 layout: subpost
 description: Two weeks of tuition
 group: spain-2018-plans
@@ -17,3 +17,6 @@ off a mountain we had just walked up. All the way back down it was on our minds 
 The two week course should see us trained up enough to launch from club sites back in the UK.
 
 ![Let fly!](http://www.paraglidingspain.co.uk/wp-content/uploads/2017/05/paragliding-spain-algodonales-best-spot-xc-cross-country.jpg){: .image .fit}
+
+Beck's hairdresser suggested that we visit [Junta De Los Rios](http://www.andalucia-spain.de/index.php?andalucia_almunecar_juntadelosrios_en) while we are in the area. A rather interesting looking
+valley walk with plunge pools to dive in. Might be a bit nippy still and the MX5 will hate the approach road but it looks fabulous!
