@@ -6,7 +6,7 @@ description: The early tourist catches the faster ferry
 image: https://farm1.staticflickr.com/805/26691462257_579b27d66c_h.jpg
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157695822486855
 thumbSquare: https://farm1.staticflickr.com/805/26691462257_e5f99d0c3d_q.jpg
-image-caption: Breakfast in Spain
+image-caption: Ice creams on the beach at Santander
 group: spain-2018
 country: Spain
 tags: [ road-trip, ferry, falmouth ]
