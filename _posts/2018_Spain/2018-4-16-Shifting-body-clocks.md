@@ -13,7 +13,7 @@ tags: [ road-trip ]
 ---
 
 We may have only travelled to a time zone one hour different to our own, but in adapting to the Spanish way of life, we might as well have travelled all the way to Australia. 
-We are here for 6 weeks – and boy are we gonna need it to rearrange our body clocks to cope so this is a bit of a shock to the system! 
+We are here for 6 weeks – and boy are we gonna need it to rearrange our body clocks to cope with 9pm dinners. Back home we would be eating at 5pm so this is a bit of a shock to the system! 
 
 In our new world order a typical day may go something like this: 
 
