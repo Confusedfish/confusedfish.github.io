@@ -16,7 +16,7 @@ Our home for the next two weeks is Algodonales where we will learn to paraglide 
 Not a good start. We wander round and realise there is another door around the corner. This is our entrance although there is nothing to tell us this! Inside is freezing cold, however, the next day we come to appreciate the cool after a few hours on
 the hill in the blazing sunshine. We grab a siesta and some supplies before meeting up at the paragliding shop for dinner.
 
-Thankfully the next day sees a vast improvement. We have a couple of hours of theory before heading out to a site to practice ground control (basically getting the wing up and controlling it once it's in the air, but not physically leaving the
+For our first day we have a couple of hours of theory before heading out to a site to practice ground handling (basically getting the wing up and controlling it once it's in the air, but not physically leaving the
 ground yourself). It's hot, sweaty work but lots of fun. We have a long lunch break to avoid the fiercest heat of the day and then it’s more ground handling in the afternoon on a 
 [rough, just ploughed field](https://www.windy.com/36.898/-5.394?35.890,-5.394,7,m:eGEaf0b). By the end we are bruised and battered and very ready for home. Can our bodies cope with another 13 days of this?!?
 
@@ -25,7 +25,7 @@ as it might be off-putting for us to fly for the first time in these conditions.
 may touch down briefly after take-off and Beck follows this instruction to the letter, legs still pedalling well into the air – it’s a comical sight.
 
 In the afternoon we visit [Ronda La Vieja](https://www.windy.com/36.839/-5.238?35.827,-5.240,7,m:eGyaf0r) where Beck is first up in the tandem with lead instructor, José. They pretty much plummet like stones, landing in a wheat field with a long walk out.
-She does get to ‘flare’, basically braking to create the downward thrust for landing, but otherwise doesn’t have time to take the controls. The others, having waited a little longer for conditions to change, get much longer flights where they take the
+She does get to ‘flare’, basically braking for a nice soft landing, but otherwise doesn’t have time to take the controls. The others, having waited a little longer for conditions to change, get much longer flights where they take the
 controls for a long time, landing back at the launch site rather than in the field below so that shuttling backwards and forwards is not required (this was also the plan for Beck’s flight but the conditions decided otherwise!) So when all the others
 have flown, Beck is offered another go, and surprises herself at how much she wants to do it. This time it’s a perfect, long flight, with plenty of time to take the controls and get a feel for the different manoeuvres. They land next to a road to
 avoid the hike out of last time and instructor Luisma with CP trainee Vincent land shortly after, right on the road, looking super cool! The sun is setting, the sky is blue, the scenery is beautiful (there are so many wild flowers out at this time of year)

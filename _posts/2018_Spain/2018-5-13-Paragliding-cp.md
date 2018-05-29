@@ -1,7 +1,7 @@
 ---
 last_modified_at: 2018-05-28T18:30:00+02:00
 layout: subpost
-title: Paragliding EP Course
+title: Paragliding CP Course
 description: From EP to Club Pilot in six days
 image: https://farm2.staticflickr.com/1725/40605886800_d84e98d673_h.jpg
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157697362471115
@@ -56,8 +56,4 @@ other pilots on the main strip (and in particular, the delights of watching the 
 
 All in all, during our two weeks here, we have done 14 solo flights from 5 different locations. Not bad for newbies! Our first week felt like it went on forever (in a good way), yet the last few days have flown by (excuse the pun). Still, we find
 time on our departure day to drop off some appreciative beers for the team, returning again to drop off a lemon as a backatcha to Pablo’s jokey complaint that we didn’t bring any Radler lemon beers. It’s been a brilliant section of our trip and we
-have a feeling that Algo hasn’t seen that last of us!  
-
-
-
-
+have a feeling that Algo hasn’t seen the last of us!  
