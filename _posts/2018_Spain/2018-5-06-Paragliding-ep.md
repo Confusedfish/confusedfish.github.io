@@ -4,7 +4,7 @@ layout: subpost
 title: Paragliding EP Course
 description: From Novice to Elementary Pilot in six days
 image: https://farm2.staticflickr.com/1745/41689994134_d3aa4fff1c_h.jpg
-video-url: https://youtu.be/Z-yiVRU6yJk
+video-url: https://www.youtube.com/watch?v=Z-yiVRU6yJk&list=PLg0hzES2-pg8dEvuvcf0con1WpsR5EuYE&index=5
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157697362471115
 thumbSquare: https://farm2.staticflickr.com/1723/42363081002_772db36d8b_q.jpg
 image-caption: Flying at Ronda La Vieja

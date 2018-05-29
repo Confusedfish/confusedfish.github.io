@@ -5,7 +5,7 @@ title: Paragliding CP Course
 description: From EP to Club Pilot in six days
 image: https://farm2.staticflickr.com/1725/40605886800_d84e98d673_h.jpg
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157697362471115
-video-url: https://youtu.be/Z-yiVRU6yJk
+video-url: https://www.youtube.com/watch?v=Z-yiVRU6yJk&list=PLg0hzES2-pg8dEvuvcf0con1WpsR5EuYE&index=5
 thumbSquare: https://farm2.staticflickr.com/1728/27542480437_b027ea4e2e_q.jpg
 image-caption: Landing field at Montellano
 group: spain-2018
