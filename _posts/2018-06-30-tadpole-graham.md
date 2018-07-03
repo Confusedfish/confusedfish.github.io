@@ -7,7 +7,8 @@ image: https://farm2.staticflickr.com/1823/42265262195_1df18b2f9b_h.jpg
 image-caption: Looking down over the route, Buttemere and Crummock
 image-url: https://www.flickr.com/photos/bennbeck/29298594208
 thumbSquare: https://farm2.staticflickr.com/1764/29298594208_22c00683cf_q.jpg
-tags: [ running, swimming, group ]
+video-url: https://youtu.be/9pcDlTQhRr4
+tags: [ running, swimming, friends, lake district ]
 country: UK
 published: true
 ---
