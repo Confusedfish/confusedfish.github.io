@@ -1,11 +1,12 @@
 ---
-last_modified_at: 2018-04-30T18:30:00+02:00
+last_modified_at: 2018-07-23T18:30:00+02:00
 layout: subpost
 title: Caminito Del Rey & Ronda
 description: Precipitous trail
 image: https://farm1.staticflickr.com/968/27252090337_ebd565e014_h.jpg
 image-url: https://www.flickr.com/photos/bennbeck/collections/72157696841660025/
 thumbSquare: https://farm1.staticflickr.com/968/27252090337_7e80b242fa_q.jpg
+video-url: https://youtu.be/LkdgCmQoIM0
 image-caption: The trail
 group: spain-2018
 country: Spain
