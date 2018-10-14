@@ -7,7 +7,7 @@ image: https://farm2.staticflickr.com/1920/45268546242_2749295464_h.jpg
 image-caption: Windows at Werdenberg
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157701983098634
 thumbSquare: https://farm2.staticflickr.com/1967/31306215258_e9c18b7996_q.jpg
-video-url: https://youtu.be/bUZxy4jNEbw
+video-url: https://www.youtube.com/playlist?list=PLg0hzES2-pg-BxV1J91XJANVlAnsvByi1
 tags: [ paragliding, cycling, family, BBQ ]
 country: Switzerland
 published: true
