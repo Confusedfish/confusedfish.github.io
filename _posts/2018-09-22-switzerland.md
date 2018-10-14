@@ -1,8 +1,8 @@
 ---
 layout: post
 last_modified_at: 2018-10-14T18:00:00+01:00
-title: Spain, Round II, 2018
-description: Back to Spain for a spot more paragliding in the sun
+title: Switzerland, Round II, 2018
+description: Back to Switzerland visiting family and paragliding in the mountains
 image: https://farm2.staticflickr.com/1920/45268546242_2749295464_h.jpg
 image-caption: Windows at Werdenberg
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157701983098634
