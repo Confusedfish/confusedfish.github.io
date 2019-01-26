@@ -17,7 +17,7 @@ There is also a ferry to North Uist where there is a ferry to Skye and then anot
 
 We have visited Skye before, it was a beautiful blend of white sandy beaches, mountains and idyic emptiness. We have every expectation this would just be amplified on the the Outer Hebrides.
 
-A circular route is possible from [Skye](https://www.calmac.co.uk/hopscotch-14-harris-uists) for about £110 for a VW camper sized vehicle. You could do it in a car of course but the idea of aquiring some 
-smoked fish from the smokehouse on North Uist all in the comfort of the camper on a white sandy beach watching the sun go down sounds idylic.
+A circular route is possible from [Skye](https://www.calmac.co.uk/hopscotch-14-harris-uists) for about £110 for a VW camper sized vehicle or the car, add another £80 for a full size motorhome. You could do it in a car of course but the idea of aquiring some 
+smoked fish from the smokehouse on North Uist and eating it in the comfort of the camper on a white sandy beach watching the sun go down sounds idylic.
 
-It's a 1,100 mile roundtrip, assuming about 100 miles on the islands.
+It's a 1,100 mile roundtrip, assuming about 100 miles on the islands. Assume £120 for fuel in a car, £145 in a VW type camper or £220 in a big camper.
