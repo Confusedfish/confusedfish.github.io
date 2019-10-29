@@ -6,6 +6,7 @@ description: Mainly drinking and eating our way from the UK to Swizerland
 image: https://live.staticflickr.com/65535/48889713497_29121225fe_b.jpg
 image-caption: Beck on the bouncy castle at Flumserberg Oktoberfest
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157711081926887/
+video-url: https://youtu.be/tYchk5BxrEE
 thumbSquare: https://live.staticflickr.com/65535/48889528816_101cebe3dd_q.jpg
 tags: [ Oktoberfest, Drinking, Cycling, Canoeing ]
 country: [UK, Germany, Switzerland ]
