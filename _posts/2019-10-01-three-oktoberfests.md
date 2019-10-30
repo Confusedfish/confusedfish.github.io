@@ -3,7 +3,8 @@ layout: post
 last_modified_at: 2019-10-29T22:45:00+01:00
 title: Three Oktoberfests
 description: Mainly drinking and eating our way from the UK to Swizerland
-image: https://live.staticflickr.com/65535/48889713497_29121225fe_b.jpg
+image: https://live.staticflickr.com/65535/48985544267_ef3ef848f1_h.jpg
+ogimage: https://live.staticflickr.com/65535/48984776513_e566d55f25_h.jpg
 image-caption: Beck on the bouncy castle at Flumserberg Oktoberfest
 image-url: https://www.flickr.com/photos/bennbeck/albums/72157711081926887/
 video-url: https://youtu.be/tYchk5BxrEE
