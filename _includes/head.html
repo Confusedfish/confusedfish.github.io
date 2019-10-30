@@ -32,7 +32,7 @@
     <meta name="theme-color" content="#ffffff">
 	{% if page.ogimage %}
         <link rel="image_src" href="{{ page.ogimage }}" />
-    { else }
+    {% else %}
         {% if page.image %}
         <link rel="image_src" href="{{ page.image }}" />
         {% endif %}
