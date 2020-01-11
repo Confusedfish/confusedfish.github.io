@@ -1,8 +1,10 @@
 ﻿<head>
 
-	{% assign parentpost = site.posts | where: 'layout','post' | where: 'group',page.group | first %}
+    {% if page.group %}
+	{% assign parentpost = site.posts | where: 'layout','post' | where: 'group',page.group | where_exp: "item","item.group!=''" | first %}
+    {% endif %}
 	{% if parentpost and parentpost.title != page.title %}
-	<title>{{parentpost.title}} - {{page.title}} | {{ site.title }}</title>
+	<title>{{parentpost.title}} - {{page.title}} | {{ site.title }} {{page.group}}</title>
 	{% else %}
 	<title>{{page.title}} | {{ site.title }}</title>
 	{% endif %}

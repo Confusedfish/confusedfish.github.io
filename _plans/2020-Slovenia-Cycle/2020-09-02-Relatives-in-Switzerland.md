@@ -6,9 +6,8 @@ group: slovenia-cycle-2020
 country: Switzerland
 tags:
 planning: true
-published: true
-sitemap:
-  changefreq: daily
+published: false
+sitemap: false
 ---
 
 Switzerlad is sort of on the way to Slovenia so it would be rude not to pop in to see Andrew, Mel & Freyja
